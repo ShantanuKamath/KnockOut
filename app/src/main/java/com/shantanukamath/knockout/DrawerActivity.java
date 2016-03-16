@@ -2,6 +2,7 @@ package com.shantanukamath.knockout;
 
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -18,8 +19,10 @@ import android.widget.TextView;
 
 import com.parse.ParseUser;
 
+import layout.WeatherFragment;
+
 public class DrawerActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener, WeatherFragment.OnFragmentInteractionListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,24 +32,31 @@ public class DrawerActivity extends AppCompatActivity
         setSupportActionBar(toolbar);
 
 
-
+        //ALERT DIALOG : OUTGOING RESULTS OF SURVEY
         Intent intent = getIntent();
         if(intent.getSerializableExtra("OUTGOING")!=null) {
             Log.v("BLAH", "Intent not null");
             int outgoing = (int) intent.getSerializableExtra("OUTGOING");
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
-            if (outgoing > 0)
-                builder.setMessage("You've been expelled, Just kidding.\nQuite Outgoing :P");
-            else
-                builder.setMessage("You've been suspended, Just kidding.\n You're still not that outgoing :P");
-
             builder.setTitle("Results are in!");
+            if (outgoing > 0) {
+                builder.setMessage("Wow your day looks fun!");
+                builder.setPositiveButton("Yay!", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        // User clicked OK button
+                    }
+                });
+            }
+            else {
+                builder.setMessage("You're are not as outgoing as we thought you would be!");
+                builder.setPositiveButton("Ill try harder!", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        // User clicked OK button
+                    }
+                });
+            }
 
-            builder.setPositiveButton("Yay!", new DialogInterface.OnClickListener() {
-                public void onClick(DialogInterface dialog, int id) {
-                    // User clicked OK button
-                }
-            });
+
             Log.v("BLAH", "Intent not null");
             AlertDialog dialog = builder.create();
             dialog.show();
@@ -131,5 +141,10 @@ public class DrawerActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    @Override
+    public void onFragmentInteraction(Uri uri) {
+
     }
 }

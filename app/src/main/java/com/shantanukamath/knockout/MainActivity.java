@@ -76,53 +76,37 @@ public class MainActivity extends AppCompatActivity {
         user.put("SurveyDone", true);
         int outgoing=0;
         CheckBox c1= (CheckBox) findViewById(R.id.MorningBook);
-        if(c1.isChecked())
-            outgoing--;
+        if(c1.isChecked()) outgoing--;
         c1= (CheckBox) findViewById(R.id.MorningBreakfast);
-        if(c1.isChecked())
-            outgoing++;
+        if(c1.isChecked()) outgoing++;
         c1= (CheckBox) findViewById(R.id.MorningYoga);
-        if(c1.isChecked())
-            outgoing++;
+        if(c1.isChecked()) outgoing++;
         c1= (CheckBox) findViewById(R.id.MorningSleep);
-        if(c1.isChecked())
-            outgoing--;
+        if(c1.isChecked()) outgoing--;
         c1= (CheckBox) findViewById(R.id.AfternoonExcursion);
-        if(c1.isChecked())
-            outgoing++;
+        if(c1.isChecked()) outgoing++;
         c1= (CheckBox) findViewById(R.id.AfternoonNap);
-        if(c1.isChecked())
-            outgoing--;
+        if(c1.isChecked()) outgoing--;
         c1= (CheckBox) findViewById(R.id.AfternoonNetflix);
-        if(c1.isChecked())
-            outgoing--;
+        if(c1.isChecked()) outgoing--;
         c1= (CheckBox) findViewById(R.id.AfternoonNGO);
-        if(c1.isChecked())
-            outgoing++;
+        if(c1.isChecked()) outgoing++;
         c1= (CheckBox) findViewById(R.id.EveningBbq);
-        if(c1.isChecked())
-            outgoing++;
+        if(c1.isChecked()) outgoing++;
         c1= (CheckBox) findViewById(R.id.EveningGames);
-        if(c1.isChecked())
-            outgoing--;
+        if(c1.isChecked()) outgoing--;
         c1= (CheckBox) findViewById(R.id.EveningSport);
-        if(c1.isChecked())
-            outgoing++;
+        if(c1.isChecked()) outgoing++;
         c1= (CheckBox) findViewById(R.id.EveningShopping);
-        if(c1.isChecked())
-            outgoing++;
+        if(c1.isChecked()) outgoing++;
         c1= (CheckBox) findViewById(R.id.NightClubbing);
-        if(c1.isChecked())
-            outgoing++;
-        c1= (CheckBox) findViewById(R.id.NightMedia);
-        if(c1.isChecked())
-            outgoing--;
+        if(c1.isChecked()) outgoing++;
+        c1= (CheckBox) findViewById(R.id.NightCycling);
+        if(c1.isChecked()) outgoing++;
         c1= (CheckBox) findViewById(R.id.NightShow);
-        if(c1.isChecked())
-            outgoing--;
+        if(c1.isChecked()) outgoing--;
         c1= (CheckBox) findViewById(R.id.NightSleep);
-        if(c1.isChecked())
-            outgoing--;
+        if(c1.isChecked()) outgoing--;
 
         user.put("OutgoingValue", outgoing);
         user.saveInBackground();
