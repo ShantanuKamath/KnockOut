@@ -11,10 +11,14 @@
     tools:showIn="@layout/app_bar_drawer"
     tools:context="com.shantanukamath.knockout.DrawerActivity">
 
-    <fragment
+    <FrameLayout
+        android:id="@+id/flContent"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:name="com.shantanukamath.knockout.WeatherFragment"
-        android:id="@+id/fragment"
-        tools:layout="@layout/fragment_weather" />
+        android:layout_height="match_parent" />
+    <!--<fragment-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:name="com.shantanukamath.knockout.WeatherFragment"-->
+        <!--android:id="@+id/fragment"-->
+        <!--tools:layout="@layout/fragment_weather" />-->
 </LinearLayout>

@@ -1,10 +1,13 @@
 package com.shantanukamath.knockout;
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
@@ -16,11 +19,15 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.parse.ParseUser;
 
+import java.text.SimpleDateFormat;
+import java.util.Locale;
+
 public class DrawerActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener, WeatherFragment.OnFragmentInteractionListener {
+        implements NavigationView.OnNavigationItemSelectedListener, WeatherFragment.OnFragmentInteractionListener, ItineraryFragment.OnFragmentInteractionListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -53,9 +60,6 @@ public class DrawerActivity extends AppCompatActivity
                     }
                 });
             }
-
-
-            Log.v("BLAH", "Intent not null");
             AlertDialog dialog = builder.create();
             dialog.show();
         }
@@ -65,7 +69,6 @@ public class DrawerActivity extends AppCompatActivity
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.setDrawerListener(toggle);
         toggle.syncState();
-
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
 
@@ -105,8 +108,6 @@ public class DrawerActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Intent i = new Intent(this, SchedulerActivity.class);
-            startActivity(i);
             return true;
         }else if (id == R.id.logout) {
             ParseUser.logOut();
@@ -123,9 +124,11 @@ public class DrawerActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        Fragment fragment = null;
+        Class fragmentClass = null;
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
+        if (id == R.id.planATrip) {
+            fragmentClass = ItineraryFragment.class;
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
@@ -138,6 +141,16 @@ public class DrawerActivity extends AppCompatActivity
 
         }
 
+        try {
+            fragment = (Fragment) fragmentClass.newInstance();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
+
+        setTitle(item.getTitle());
+
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
@@ -146,5 +159,80 @@ public class DrawerActivity extends AppCompatActivity
     @Override
     public void onFragmentInteraction(Uri uri) {
 
+    }
+
+
+
+
+
+
+    //////////////
+
+
+    public void increment1(View view) {
+        if (ItineraryFragment.quantity1 < 100)
+            displayQuantity(++ItineraryFragment.quantity1, ItineraryFragment.q1);
+        else {
+            Context context = getApplicationContext();
+            CharSequence text = "You cannot have more than 100 adults";
+            int duration = Toast.LENGTH_SHORT;
+            Toast toast = Toast.makeText(context, text, duration);
+            toast.show();
+        }
+    }
+
+    public void decrement1(View view) {
+        if (ItineraryFragment.quantity1 > 0)
+            displayQuantity(--ItineraryFragment.quantity1, ItineraryFragment.q1);
+        else {
+            Context context = getApplicationContext();
+            CharSequence text = "You cannot have less than 0 adults";
+            int duration = Toast.LENGTH_LONG;
+
+            Toast toast = Toast.makeText(context, text, duration);
+            toast.show();
+        }
+
+    }
+    public void increment2(View view) {
+        if (ItineraryFragment.quantity2 < 100)
+            displayQuantity(++ItineraryFragment.quantity2, ItineraryFragment.q2);
+        else {
+            Context context = getApplicationContext();
+            CharSequence text = "You cannot have more than 100 kids";
+            int duration = Toast.LENGTH_SHORT;
+            Toast toast = Toast.makeText(context, text, duration);
+            toast.show();
+        }
+    }
+
+    public void decrement2(View view) {
+        if (ItineraryFragment.quantity2 > 0)
+            displayQuantity(--ItineraryFragment.quantity2, ItineraryFragment.q2);
+        else {
+            Context context = getApplicationContext();
+            CharSequence text = "You cannot have less than 0 kids";
+            int duration = Toast.LENGTH_LONG;
+
+            Toast toast = Toast.makeText(context, text, duration);
+            toast.show();
+        }
+
+    }
+    private void displayQuantity(int number, TextView tv) {
+        tv.setText("" + number);
+    }
+    public static void updateLabelTo(View v) {
+        TextView dateText = (TextView) v.findViewById(R.id.to_text);
+        String myFormat = "dd/MM/yy";
+        SimpleDateFormat sdf = new SimpleDateFormat(myFormat, Locale.US);
+        dateText.setText(sdf.format(ItineraryFragment.toCalendar.getTime()));
+    }
+
+    public static void updateLabelFrom(View v) {
+        TextView dateText = (TextView) v.findViewById(R.id.from_text);
+        String myFormat = "dd/MM/yy";
+        SimpleDateFormat sdf = new SimpleDateFormat(myFormat, Locale.US);
+        dateText.setText(sdf.format(ItineraryFragment.fromCalendar.getTime()));
     }
 }
