@@ -2,16 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="layout.WeatherFragment"
+    tools:context=".WeatherFragment"
     android:background="#E0E0E0">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="9"
         android:orientation="vertical">
 
         <LinearLayout
@@ -70,6 +65,130 @@
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
-    </ScrollView>
+        <LinearLayout
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#FFFFFF">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+                <TextView
+                    android:layout_marginTop="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Weather"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Temperature"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+                <TextView
+                    android:layout_marginTop="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Weather"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Temperature"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+                <TextView
+                    android:layout_marginTop="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Weather"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Temperature"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+                <TextView
+                    android:layout_marginTop="4dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Weather"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Temperature"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="48dp" />
+                <TextView
+                    android:layout_marginTop="4dp"
+                    android:id="@+id/smallWeather"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Weather"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/smallTemp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Temperature"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            </LinearLayout>
     </LinearLayout>
 </FrameLayout>

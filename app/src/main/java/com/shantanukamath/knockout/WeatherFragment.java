@@ -1,4 +1,4 @@
-package layout;
+package com.shantanukamath.knockout;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -13,8 +13,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import com.shantanukamath.knockout.R;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -130,25 +128,27 @@ public class WeatherFragment extends Fragment {
 
         @Override
         protected void onPostExecute(String s) {
-            int start=0;
-            int end = s.indexOf("\n");
-            country.setText(s.substring(start,end));
-            start=end+1;
-            end=s.indexOf("\n", start);
-            Double toBeTruncated = Double.parseDouble(s.substring(start,end))-273;
-            Double truncatedDouble = new BigDecimal(toBeTruncated)
-                    .setScale(3, BigDecimal.ROUND_HALF_UP)
-                    .doubleValue();
-            temp.setText(""+truncatedDouble+"°C");
-            start=end+1;
-            end=s.indexOf("\n", start);
-            weather.setText(s.substring(start,end));
-            start=end+1;
-            end=s.indexOf("\n", start);
-            description.setText(s.substring(start, end));
-            start=end+1;
-            end=s.indexOf("\n", start);
-            new ImageDownloader(wIcon).execute("http://openweathermap.org/img/w/"+s.substring(start, end)+".png");
+            if (s.length()>0) {
+                int start = 0;
+                int end = s.indexOf("\n");
+                country.setText(s.substring(start, end));
+                start = end + 1;
+                end = s.indexOf("\n", start);
+                Double toBeTruncated = Double.parseDouble(s.substring(start, end)) - 273;
+                Double truncatedDouble = new BigDecimal(toBeTruncated)
+                        .setScale(3, BigDecimal.ROUND_HALF_UP)
+                        .doubleValue();
+                temp.setText("" + truncatedDouble + "°C");
+                start = end + 1;
+                end = s.indexOf("\n", start);
+                weather.setText(s.substring(start, end));
+                start = end + 1;
+                end = s.indexOf("\n", start);
+                description.setText(s.substring(start, end));
+                start = end + 1;
+                end = s.indexOf("\n", start);
+                new ImageDownloader(wIcon).execute("http://openweathermap.org/img/w/" + s.substring(start, end) + ".png");
+            }
         }
 
         private String sendQuery(String query) throws IOException {
