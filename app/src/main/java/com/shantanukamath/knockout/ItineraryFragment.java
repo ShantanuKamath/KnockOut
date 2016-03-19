@@ -23,6 +23,7 @@ public class ItineraryFragment extends Fragment {
     static int quantity1;
     static int quantity2;
     public static TextView q1, q2;
+
     public ItineraryFragment() {
         // Required empty public constructor
     }
