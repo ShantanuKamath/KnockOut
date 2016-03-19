@@ -10,11 +10,8 @@ import android.support.v4.app.FragmentStatePagerAdapter;
 import android.support.v4.app.NavUtils;
 import android.support.v4.app.TaskStackBuilder;
 import android.support.v4.view.ViewPager;
-import android.view.LayoutInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.TextView;
+
 
 public class SchedulerActivity extends FragmentActivity {
 
@@ -61,9 +58,9 @@ public class SchedulerActivity extends FragmentActivity {
 
         @Override
         public Fragment getItem(int i) {
-            Fragment fragment = new DemoObjectFragment();
+            Fragment fragment = new DayPlannerFragment();
             Bundle args = new Bundle();
-            args.putInt(DemoObjectFragment.ARG_OBJECT, i + 1); // Our object is just an integer :-P
+            args.putInt(DayPlannerFragment.ARG_OBJECT, i + 1); // Our object is just an integer :-P
             fragment.setArguments(args);
             return fragment;
         }
@@ -78,20 +75,4 @@ public class SchedulerActivity extends FragmentActivity {
         }
     }
 
-    /**
-     * A dummy fragment representing a section of the app, but that simply displays dummy text.
-     */
-    public static class DemoObjectFragment extends Fragment {
-
-        public static final String ARG_OBJECT = "object";
-        @Override
-        public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                                 Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_day_schedule, container, false);
-            Bundle args = getArguments();
-            ((TextView) rootView.findViewById(android.R.id.text1)).setText(
-                    Integer.toString(args.getInt(ARG_OBJECT)));
-            return rootView;
-        }
-    }
 }
