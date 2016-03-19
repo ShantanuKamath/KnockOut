@@ -37,7 +37,7 @@ dependencies {
     compile 'com.parse:parsetwitterutils-android:1.10.3'
     compile 'com.google.android.gms:play-services-appindexing:8.4.0'
     compile 'com.android.support:support-v4:23.2.1'
-//    compile 'com.google.android.gms:play-services:8.4.0'
     compile 'com.android.support:multidex:1.0.0'
     compile 'com.google.android.gms:play-services-maps:8.4.0'
+    compile 'com.google.android.gms:play-services-location:8.4.0'
 }

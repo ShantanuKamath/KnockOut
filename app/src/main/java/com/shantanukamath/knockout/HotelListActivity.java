@@ -96,7 +96,7 @@ public class HotelListActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.next) {
-            Intent i = new Intent(this, MapsActivity.class);
+            Intent i = new Intent(this, HotelDetailActivity.class);
             AutoCompleteTextView ac = (AutoCompleteTextView) findViewById(R.id.rest_name);
             String name = ac.getText().toString();
             i.putExtra("name", name);
