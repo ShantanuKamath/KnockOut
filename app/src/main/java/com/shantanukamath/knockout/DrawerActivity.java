@@ -108,7 +108,7 @@ public class DrawerActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Intent i = new Intent(this,SchedulerActivity.class);
+            Intent i = new Intent(this,HotelDetailActivity.class);
             startActivity(i);
             return true;
         }else if (id == R.id.logout) {
@@ -236,5 +236,10 @@ public class DrawerActivity extends AppCompatActivity
         String myFormat = "dd/MM/yy";
         SimpleDateFormat sdf = new SimpleDateFormat(myFormat, Locale.US);
         dateText.setText(sdf.format(ItineraryFragment.fromCalendar.getTime()));
+    }
+
+    public void openHotelList(View view) {
+        Intent i = new Intent(this, HotelListActivity.class);
+        startActivity(i);
     }
 }

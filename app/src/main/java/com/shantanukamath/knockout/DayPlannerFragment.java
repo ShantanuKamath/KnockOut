@@ -32,10 +32,8 @@ public class DayPlannerFragment extends Fragment {
             } else {
                 lLayout[i].setBackgroundColor(Color.MAGENTA);
             }
-
             LinearLayout.LayoutParams myLayoutParams = new LinearLayout.LayoutParams(
                     LinearLayout.LayoutParams.MATCH_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
-
             lLayout[i].setLayoutParams(myLayoutParams);
             parentLayout.addView(lLayout[i]);
 

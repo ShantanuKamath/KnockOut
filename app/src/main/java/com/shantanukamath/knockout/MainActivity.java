@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         ParseUser user = ParseUser.getCurrentUser();
-        if((boolean)user.getBoolean("SurveyDone"))
+        if(user.getBoolean("SurveyDone"))
         {
             Intent i = new Intent(this, DrawerActivity.class);
             startActivity(i);

@@ -22,7 +22,7 @@ public class ItineraryFragment extends Fragment {
 
     static int quantity1;
     static int quantity2;
-    public static TextView q1, q2;
+    public static TextView q1, q2, hotelName;
 
     public ItineraryFragment() {
         // Required empty public constructor
@@ -100,6 +100,7 @@ public class ItineraryFragment extends Fragment {
 
         q1 = (TextView) v.findViewById(R.id.quantity1);
         q2 = (TextView) v.findViewById(R.id.quantity2);
+        hotelName = (TextView) v.findViewById(R.id.HotelName);
         return v;
     }
 
@@ -129,11 +130,6 @@ public class ItineraryFragment extends Fragment {
     public interface OnFragmentInteractionListener {
         void onFragmentInteraction(Uri uri);
     }
-
-//    public void guestlist(View view) {
-//        Intent in= new Intent(this, GuestList.class);
-//        startActivity(in);
-//    }
 
 
 
