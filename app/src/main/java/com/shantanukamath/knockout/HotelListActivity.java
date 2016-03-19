@@ -1,5 +1,6 @@
 package com.shantanukamath.knockout;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -32,11 +33,9 @@ public class HotelListActivity extends AppCompatActivity {
 
         setContentView(R.layout.activity_hotel_list);
         try {
-            Log.v("BLAH", "LOL");
             JSONObject hotelData = new JSONObject(loadJSONFromAsset());
             JSONObject obj = hotelData.getJSONObject("Document");
             JSONArray hotelDetails = obj.getJSONArray("Placemark");
-            Log.v("BLAH", "" + hotelDetails.length());
             for (int i = 0; i < hotelDetails.length(); i++) {
                 JSONObject j_obj = hotelDetails.getJSONObject(i);
                 String name = j_obj.getString("name");
@@ -45,7 +44,6 @@ public class HotelListActivity extends AppCompatActivity {
             onPostExecute(names);
         } catch (JSONException e) {
             e.printStackTrace();
-            Log.v("BLAH", "noLOL");
 
         }
     }
@@ -98,8 +96,15 @@ public class HotelListActivity extends AppCompatActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.next) {
+            Intent i = new Intent(this, MapsActivity.class);
             AutoCompleteTextView ac = (AutoCompleteTextView) findViewById(R.id.rest_name);
-            String name= ac.getText().toString();
+            String name = ac.getText().toString();
+            i.putExtra("name", name);
+            i.putExtra("coordinates", getLatLong(name));
+            Log.v("coordinates",getLatLong(name));
+
+            startActivity(i);
+
             changeHotelData(name);
             return true;
         }
@@ -128,5 +133,24 @@ public class HotelListActivity extends AppCompatActivity {
             return null;
         }
         return json;
+    }
+
+    public String getLatLong(String name) {
+        try {
+            JSONObject hotelData = new JSONObject(loadJSONFromAsset());
+            JSONObject obj = hotelData.getJSONObject("Document");
+            JSONArray hotelDetails = obj.getJSONArray("Placemark");
+            for (int i = 0; i < hotelDetails.length(); i++) {
+                JSONObject j_obj = hotelDetails.getJSONObject(i);
+                if(j_obj.getString("name").equals(name)) {
+                    JSONObject point = j_obj.getJSONObject("Point");
+                    return point.getString("coordinates");
+                }
+            }
+        } catch (JSONException e) {
+            e.printStackTrace();
+
+        }
+        return null;
     }
 }
