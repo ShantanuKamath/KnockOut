@@ -1,0 +1,6630 @@
+{
+   "Document": {
+      "Placemark": [
+         {
+            "name": "Tan Teck Guan Building",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.833533633667,1.28020330128407"
+            }
+         },
+         {
+            "name": "Bukit Batok Memorial",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.7680126674,1.35061426407318"
+            }
+         },
+         {
+            "name": "Sook Ching Centre",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.845900592898,1.28440232699881"
+            }
+         },
+         {
+            "name": "The Old Nanyang University Library and Administration Building Memorial and Arch",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.683997665011,1.34379227896432"
+            }
+         },
+         {
+            "name": "Kempeitai East District Branch",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.848327626293,1.29759527939846"
+            }
+         },
+         {
+            "name": "Ying Fo Fui Kun",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.848426647288,1.28259032865475"
+            }
+         },
+         {
+            "name": "Changi Beach",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.993163617416,1.39089533161176"
+            }
+         },
+         {
+            "name": "Trinity Theological College",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.768935656247,1.36137232951792"
+            }
+         },
+         {
+            "name": "Chui Eng Free School Site",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.847953657537,1.2829442989339"
+            }
+         },
+         {
+            "name": "Sentosa Beach",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.833205668601,1.25296427937751"
+            }
+         },
+         {
+            "name": "Balestier Point",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.852492657094,1.32258528896853"
+            }
+         },
+         {
+            "name": "Beauty World Amusement Park and Market",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.776191590699,1.34179728314551"
+            }
+         },
+         {
+            "name": "Jalan Besar Stadium",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.860335632533,1.31002431499467"
+            }
+         },
+         {
+            "name": "Bukit Timah Food Centre",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.776122637232,1.33942730508695"
+            }
+         },
+         {
+            "name": "Holy Trinity Church",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.860381651592,1.31127125243954"
+            }
+         },
+         {
+            "name": "Raffles Landing Site",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.850699626599,1.28783128942492"
+            }
+         },
+         {
+            "name": "Armenian Church",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.849418610213,1.29309732297893"
+            }
+         },
+         {
+            "name": "Tan Si Chong Su Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.842788608599,1.28914428733"
+            }
+         },
+         {
+            "name": "Po Chiak Keng Temple Tan Si Chong Su",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.842788608599,1.28914428733"
+            }
+         },
+         {
+            "name": "Commonwealth Cooked Food Centre",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.804091654845,1.29879732604138"
+            }
+         },
+         {
+            "name": "Masjid Hajjah Rahimabi Kebun Limau",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.854979614348,1.32618029749336"
+            }
+         },
+         {
+            "name": "Asian Civilizations Museum",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.85137864958,1.28735929666488"
+            }
+         },
+         {
+            "name": "Chijmes Former The Old Convent of the Holy Infant Jesus Chapel and Caldwell House",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.852302587616,1.29515328676976"
+            }
+         },
+         {
+            "name": "Masjid Omar Kampong Melaka",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.844298601494,1.28784525153963"
+            }
+         },
+         {
+            "name": "Tekka Market",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.850486616749,1.30638026475249"
+            }
+         },
+         {
+            "name": "Telok Ayer Chinese Methodist Church",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.846999655166,1.27850432559765"
+            }
+         },
+         {
+            "name": "Clemenceau Bridge",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.842475652406,1.29074130639211"
+            }
+         },
+         {
+            "name": "Art Deco Shophouses",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.85309567054,1.32177831878432"
+            }
+         },
+         {
+            "name": "Queenstown Secondary School",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.813399628588,1.29365926779236"
+            }
+         },
+         {
+            "name": "Sri Muneeswaran Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.798697644852,1.29576130529656"
+            }
+         },
+         {
+            "name": "Forfar Heights At Strathmore Avenue",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.810904626599,1.29565427551978"
+            }
+         },
+         {
+            "name": "Block 115 The First Flatted Factory in Singapore",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.797858641263,1.3045462906989"
+            }
+         },
+         {
+            "name": "Commonwealth Heights",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.800384640997,1.30416025200295"
+            }
+         },
+         {
+            "name": "Bukit Timah Battle Site",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.7774345897,1.34874825404574"
+            }
+         },
+         {
+            "name": "Bukit Timah Village",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.774505674963,1.33967424838359"
+            }
+         },
+         {
+            "name": "Former AttorneyGenerals Chambers",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.851378660456,1.28890530745886"
+            }
+         },
+         {
+            "name": "House of Tan Yeok Nee",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.843245645199,1.29884531669956"
+            }
+         },
+         {
+            "name": "Raffles Girls Primary School",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.806510659443,1.32939824670348"
+            }
+         },
+         {
+            "name": "Coronation Plaza",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.810019659358,1.32394125651871"
+            }
+         },
+         {
+            "name": "National Junior College",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.80516065177,1.33098629558996"
+            }
+         },
+         {
+            "name": "Singapore Chinese Girls School",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.828139626144,1.32105327287759"
+            }
+         },
+         {
+            "name": "AngloChinese School Barker Road",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.835746591604,1.31968027074112"
+            }
+         },
+         {
+            "name": "Adam Food centre",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.813926654667,1.32471633173383"
+            }
+         },
+         {
+            "name": "Bukit brown cemetry",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.821654634881,1.33147930837039"
+            }
+         },
+         {
+            "name": "Singapore Botanic Gardens",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.816703613216,1.31448925337953"
+            }
+         },
+         {
+            "name": "Shree Lakshminarayan Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.850776587299,1.30760630907688"
+            }
+         },
+         {
+            "name": "Sakya Muni Buddha Gaya Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.856856585655,1.31472225327072"
+            }
+         },
+         {
+            "name": "Leong San See Buddhist Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.85684967146,1.31512225290256"
+            }
+         },
+         {
+            "name": "Kampong Kapor Methodist Church",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.853866597263,1.30702930178735"
+            }
+         },
+         {
+            "name": "Abdul Gafoor Mosque",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.853736646935,1.30450332089528"
+            }
+         },
+         {
+            "name": "Little India Arcade",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.851615636434,1.30557627651088"
+            }
+         },
+         {
+            "name": "Jamae Mosque",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.845382669045,1.28318930487069"
+            }
+         },
+         {
+            "name": "Hajjah Fatimah Mosque",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.862967666109,1.30281830674617"
+            }
+         },
+         {
+            "name": "Empress Place Building  Now known as Asian Civilisation Museum II",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.851668608526,1.28722228330888"
+            }
+         },
+         {
+            "name": "Old Thong Chai Building",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.845130648386,1.28725533149875"
+            }
+         },
+         {
+            "name": "Telok Ayer Market",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.850371611469,1.28061626777327"
+            }
+         },
+         {
+            "name": "Lian Shan Shuang Lin Monastery",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.857306638648,1.33015025618112"
+            }
+         },
+         {
+            "name": "Siong Lim Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.857306638648,1.33015025618112"
+            }
+         },
+         {
+            "name": "Goodwood Park Hotel",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.834395613858,1.30837028673779"
+            }
+         },
+         {
+            "name": "St Georges Church",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.815055652386,1.30483325049644"
+            }
+         },
+         {
+            "name": "Hong San See Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.840857656405,1.29319431095356"
+            }
+         },
+         {
+            "name": "Church of the Good Shepherd",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.807410646062,1.29520432050942"
+            }
+         },
+         {
+            "name": "Masjid Mujahidin",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.801063658714,1.29810029420617"
+            }
+         },
+         {
+            "name": "Victoria Theatre and Concert Hall",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.851767629833,1.28764624792573"
+            }
+         },
+         {
+            "name": "Esplanade Park",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.853606598584,1.28961024297131"
+            }
+         },
+         {
+            "name": "Indian National Army Monument",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.853713613533,1.28933124556414"
+            }
+         },
+         {
+            "name": "Queen Elizabeth Walk",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.854163603095,1.28934725006078"
+            }
+         },
+         {
+            "name": "Cenotaph",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.853751629025,1.2903472991304"
+            }
+         },
+         {
+            "name": "Tan Kim Seng Fountain",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.854361655666,1.29106328065248"
+            }
+         },
+         {
+            "name": "Civilian War Memorial",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.85461362214,1.29290827316613"
+            }
+         },
+         {
+            "name": "City Hall and the Padang",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.85172964411,1.29066230492175"
+            }
+         },
+         {
+            "name": "Supreme Court",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.850860661693,1.29025932703448"
+            }
+         },
+         {
+            "name": "Raffles Hotel",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.854178655428,1.29507531479258"
+            }
+         },
+         {
+            "name": "Lim Bo Seng Memorial",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.853026671371,1.28848331854153"
+            }
+         },
+         {
+            "name": "Cathedral Of The Good Shepherd",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.851302604547,1.29596532324783"
+            }
+         },
+         {
+            "name": "Singapore Art Museum Former St Josephs Institution",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.850966648242,1.29728425032043"
+            }
+         },
+         {
+            "name": "National Museum of Singapore Former Singapore History Museum",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.848639594671,1.29672229328142"
+            }
+         },
+         {
+            "name": "Fort Canning Park",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.846976642428,1.2935092755463"
+            }
+         },
+         {
+            "name": "National Archives of Singapore",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.848510634081,1.29328426081359"
+            }
+         },
+         {
+            "name": "The Peranakan Museum",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.849059649036,1.29431026023482"
+            }
+         },
+         {
+            "name": "National Archives Of Singapore",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.848517641149,1.29317230131113"
+            }
+         },
+         {
+            "name": "Central Fire Station",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.849143650448,1.29216827164105"
+            }
+         },
+         {
+            "name": "Ministry of Information Communications and The Arts MICA The Old Hill Street Police Station",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.847732662174,1.29084926306786"
+            }
+         },
+         {
+            "name": "St Andrews Cathedral",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.852027610912,1.2920833320753"
+            }
+         },
+         {
+            "name": "Cathay Building",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.847640609067,1.29930625023593"
+            }
+         },
+         {
+            "name": "MacDonald House",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.846038593099,1.29919728289803"
+            }
+         },
+         {
+            "name": "Istana Park",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.843780640341,1.2992572535992"
+            }
+         },
+         {
+            "name": "Young Mens Christian Association YMCA Building",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.848174603375,1.29760332824882"
+            }
+         },
+         {
+            "name": "Keramat Iskandar Shah",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.847266616349,1.29594427622172"
+            }
+         },
+         {
+            "name": "Spice Garden",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.847289613351,1.29506432913606"
+            }
+         },
+         {
+            "name": "Masjid AlAbrar",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.84727461883,1.28041325758811"
+            }
+         },
+         {
+            "name": "Masjid Moulana Mohd Ali",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.849997670992,1.28542432616143"
+            }
+         },
+         {
+            "name": "Nagore Durgha Shrine",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.847815633995,1.28136925781204"
+            }
+         },
+         {
+            "name": "Sri Mariamman Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.845160638335,1.2826232639191"
+            }
+         },
+         {
+            "name": "Thian Hock Keng Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.847587674178,1.28125829352452"
+            }
+         },
+         {
+            "name": "Yueh Hai Ching Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.849242622397,1.28452629759089"
+            }
+         },
+         {
+            "name": "Sri Veeramakaliamman Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.852218664817,1.30738825624733"
+            }
+         },
+         {
+            "name": "Sri Srinivasa Perumal Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.856498593128,1.31352424481852"
+            }
+         },
+         {
+            "name": "Novena Church",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.842864658443,1.321837253644"
+            }
+         },
+         {
+            "name": "Queenstown Sports Complex",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.802176618248,1.29631925333905"
+            }
+         },
+         {
+            "name": "Church of The Blessed Sacrament",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.799041609093,1.29555728533566"
+            }
+         },
+         {
+            "name": "Faith Methodist Church",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.797393671308,1.30258327116663"
+            }
+         },
+         {
+            "name": "Former Tanglin Halt Industrial Estate",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.793494658555,1.30538330480323"
+            }
+         },
+         {
+            "name": "Queenstown Lutheran Church",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.799148663148,1.30618727914295"
+            }
+         },
+         {
+            "name": "Memories at Old Ford Factory MOFF",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.768828663073,1.35363929262631"
+            }
+         },
+         {
+            "name": "Former Bukit Timah Fire Station",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.771064668136,1.3493703017067"
+            }
+         },
+         {
+            "name": "Bukit Timah Hill",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.773505613756,1.35299532529526"
+            }
+         },
+         {
+            "name": "Cavenagh Bridge",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.852279610925,1.28652826923073"
+            }
+         },
+         {
+            "name": "The Fullerton Waterboat House",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.853469641898,1.2871912499234"
+            }
+         },
+         {
+            "name": "Elgin Bridge",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.849242650612,1.28908031638599"
+            }
+         },
+         {
+            "name": "The Parliament House",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.850188632737,1.28877924810973"
+            }
+         },
+         {
+            "name": "Coleman Bridge Singapore",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.847968612823,1.28972631188716"
+            }
+         },
+         {
+            "name": "Clarke Quay",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.845435626822,1.29036625475132"
+            }
+         },
+         {
+            "name": "The Cannery",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.845977629975,1.29094531691023"
+            }
+         },
+         {
+            "name": "Read Bridge",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.84507764231,1.28915829630038"
+            }
+         },
+         {
+            "name": "Ord Bridge",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.844100666446,1.29083824880739"
+            }
+         },
+         {
+            "name": "Robertson Quay",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.837539604679,1.29165328095711"
+            }
+         },
+         {
+            "name": "Alkaff Bridge",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.839904653293,1.29010925468543"
+            }
+         },
+         {
+            "name": "Fort Canning Centre",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.846610589527,1.29591127045231"
+            }
+         },
+         {
+            "name": "Underground Far East Command Centre The Battle Box",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.846229606928,1.29606230226053"
+            }
+         },
+         {
+            "name": "Lookout Point  Raffles House",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.847106654302,1.29199627248153"
+            }
+         },
+         {
+            "name": "Gothic Gates",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.8465416633,1.29437828201967"
+            }
+         },
+         {
+            "name": "Christian Cemetary",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.846526657632,1.29437828209827"
+            }
+         },
+         {
+            "name": "Cupolas",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.8465416633,1.29437828201967"
+            }
+         },
+         {
+            "name": "James Brooke Napier Memorial",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.846526657632,1.29437828209827"
+            }
+         },
+         {
+            "name": "Sally Port",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.846526657575,1.29436724884748"
+            }
+         },
+         {
+            "name": "Fort Wall and Gate",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.846518659701,1.29437828214013"
+            }
+         },
+         {
+            "name": "9 Pound Canon",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.846526657632,1.29437828209827"
+            }
+         },
+         {
+            "name": "Archaeological Excavation Site",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.846526657575,1.29436724884748"
+            }
+         },
+         {
+            "name": "Goh Chor Tua Pek Kong Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.852553663075,1.32171827416049"
+            }
+         },
+         {
+            "name": "Queenstown Town Centre",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.80400063281,1.29883024385476"
+            }
+         },
+         {
+            "name": "Former Golden City and Venus Cinemas",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.803824608954,1.29874333144158"
+            }
+         },
+         {
+            "name": "Queenstown Community Library",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.805747585607,1.29850731410936"
+            }
+         },
+         {
+            "name": "Queenstown Baptist Church",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.808623660614,1.29714528122417"
+            }
+         },
+         {
+            "name": "Former Raffles College NUS Bukit Timah Campus",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.817321608349,1.3188222502437"
+            }
+         },
+         {
+            "name": "Bukit Timah Nature Reserve",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.776465638177,1.35402528570546"
+            }
+         },
+         {
+            "name": "Block 45 48 49 Stirling Road",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.802253607794,1.29760128167681"
+            }
+         },
+         {
+            "name": "Shuang Long Shan Wu Shu Ancestral Hall",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.796477656614,1.30520030718925"
+            }
+         },
+         {
+            "name": "Former Queenstown Cinema and Bowling Centre",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.804847620597,1.29698426346322"
+            }
+         },
+         {
+            "name": "Mei Ling Heights and Stirling View",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.803878601749,1.29180332858171"
+            }
+         },
+         {
+            "name": "Former Baharuddin Vocational Institute",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.800841637069,1.29742427875246"
+            }
+         },
+         {
+            "name": "King Albert Park",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.779342588671,1.33686332544394"
+            }
+         },
+         {
+            "name": "Sarimbun Beach Landing",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.698966654168,1.43288028087367"
+            }
+         },
+         {
+            "name": "Kranji Beach Battle",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.735228584715,1.44040932165082"
+            }
+         },
+         {
+            "name": "Church Of Our Lady Of Lourdes",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.856070609435,1.30314928592741"
+            }
+         },
+         {
+            "name": "Church of Our Lady of Lourdes",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.855666624,1.30324831840464"
+            }
+         },
+         {
+            "name": "Church of St Peter and St Paul",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.850875626326,1.29737025604762"
+            }
+         },
+         {
+            "name": "Church of the Nativity of the Blessed Virgin Mary",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.897681594466,1.37384630929377"
+            }
+         },
+         {
+            "name": "College of Medicine Building",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.833701660283,1.28018729400578"
+            }
+         },
+         {
+            "name": "Old Admiralty House Now a part of Karimun Country Club",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.824103646306,1.44793826673866"
+            }
+         },
+         {
+            "name": "Prinsep Street Presbyterian Church",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.85101259382,1.30172531494399"
+            }
+         },
+         {
+            "name": "Battle for Pasir Panjang",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.791060653731,1.2849922851007"
+            }
+         },
+         {
+            "name": "St Josephs Church",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.853095666594,1.29845430252445"
+            }
+         },
+         {
+            "name": "Labrador Battery",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.801780615166,1.26810930611689"
+            }
+         },
+         {
+            "name": "Sultan Mosque",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.859122603439,1.30232330007138"
+            }
+         },
+         {
+            "name": "The Fullerton Singapore",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.853133671991,1.2863443148952"
+            }
+         },
+         {
+            "name": "Merlion Park",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.854186590029,1.28752432169303"
+            }
+         },
+         {
+            "name": "Queenstown Remand Prison",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.807677660678,1.29833631919313"
+            }
+         },
+         {
+            "name": "Sim Kwong Ho Shophouse I",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.8525466654,1.32327025428532"
+            }
+         },
+         {
+            "name": "Sun Yat Sen Nanyang Memorial Hall",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.8471675936,1.32806830533316"
+            }
+         },
+         {
+            "name": "Lee Kong Chian Gardens School",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.813674665342,1.29447428440638"
+            }
+         },
+         {
+            "name": "Rainbow Centre",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.809066640745,1.2972633042322"
+            }
+         },
+         {
+            "name": "Masjid Jamek",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.815406617245,1.29301528558564"
+            }
+         },
+         {
+            "name": "Thye Hong Centre",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.814681598119,1.29110625664896"
+            }
+         },
+         {
+            "name": "Former Archipelago Brewery Company",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.801940623903,1.27720532031208"
+            }
+         },
+         {
+            "name": "Queensway Shopping Centre",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.803161616125,1.28748127053582"
+            }
+         },
+         {
+            "name": "Maha Sasana Ramsi Burmese Buddhist Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.846915640149,1.32832026361357"
+            }
+         },
+         {
+            "name": "Alexandra Fire Station and Queenstown Neighbourhood Police Centre",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.801856649625,1.28872529790609"
+            }
+         },
+         {
+            "name": "Water Kiosk",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.849090668875,1.32628832430446"
+            }
+         },
+         {
+            "name": "Sim Kwong Ho Shophouse II",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.849662596442,1.32580231505018"
+            }
+         },
+         {
+            "name": "Tiong Ghee Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.804236590755,1.29093532344763"
+            }
+         },
+         {
+            "name": "True Way Presbyterian Church",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.805739640776,1.29376627238759"
+            }
+         },
+         {
+            "name": "Gan Eng Seng School",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.823714643627,1.28996924925057"
+            }
+         },
+         {
+            "name": "Raffles Institution",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.845984647679,1.34613932425345"
+            }
+         },
+         {
+            "name": "Farrer Park",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.854125604576,1.31249428401759"
+            }
+         },
+         {
+            "name": "Singapore Chin Kang Huay Kuan",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.840453632731,1.27915232974897"
+            }
+         },
+         {
+            "name": "Former Kerdang Kerbau Hospital",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.846793609997,1.31058531110966"
+            }
+         },
+         {
+            "name": "Alexandra Hospital",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.80136058818,1.28688029716532"
+            }
+         },
+         {
+            "name": "Sri Senpaga Vinayagar Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.902396642693,1.30554328303873"
+            }
+         },
+         {
+            "name": "Queenstown",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.803931624605,1.29882924734231"
+            }
+         },
+         {
+            "name": "Sri Krishnan Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.852622600457,1.30064232628837"
+            }
+         },
+         {
+            "name": "Pulau Sejahat",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "104.020148611506,1.40119625017628"
+            }
+         },
+         {
+            "name": "Kwan Im Thong Hood Cho Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.852927656059,1.30069531879321"
+            }
+         },
+         {
+            "name": "Outram Prison",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.838965658139,1.28132127190392"
+            }
+         },
+         {
+            "name": "Batu BerlayarDragons Teeth GateLots Wife",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.804892657095,1.26267130560978"
+            }
+         },
+         {
+            "name": "Tan Tock Seng Hospital",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.846152645358,1.32234024725984"
+            }
+         },
+         {
+            "name": "Geylang Serai",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.896956671687,1.31659132186666"
+            }
+         },
+         {
+            "name": "Changi Murals",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.97384562732,1.3622083216579"
+            }
+         },
+         {
+            "name": "Republic of Singapore Yacht Club",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.763038590255,1.29290828800981"
+            }
+         },
+         {
+            "name": "Pondok Peranakan Gelam Club",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.845817644925,1.2815812524349"
+            }
+         },
+         {
+            "name": "Middle Road ChurchChristian Institute",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.851890638724,1.29970830389359"
+            }
+         },
+         {
+            "name": "The Boys Brigade in Singapore",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.851035598162,1.30182226268242"
+            }
+         },
+         {
+            "name": "Placemark 202",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.800803604694,1.32717027676213"
+            }
+         },
+         {
+            "name": "Syonan Jinja",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.81820666995,1.3355552613357"
+            }
+         },
+         {
+            "name": "Ee Hoe Hean Club",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.840415624173,1.27932931407433"
+            }
+         },
+         {
+            "name": "Fuk Tak Chi",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.848769622079,1.28300832314514"
+            }
+         },
+         {
+            "name": "7 Adam Park",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.813720668584,1.32948431999174"
+            }
+         },
+         {
+            "name": "OverseaChinese Banking Corporation",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.8491286018,1.2853352526842"
+            }
+         },
+         {
+            "name": "Upper Seletar Reservoir",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.801314605057,1.4024192617816"
+            }
+         },
+         {
+            "name": "Lower Peirce Reservoir",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.823073652969,1.37002830103458"
+            }
+         },
+         {
+            "name": "The Old Tanglin Officers Mess",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.818267599402,1.30449232550572"
+            }
+         },
+         {
+            "name": "Macritchie Reservoir",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.830756636112,1.3443713233701"
+            }
+         },
+         {
+            "name": "United Overseas Bank",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.850982649839,1.2853462737185"
+            }
+         },
+         {
+            "name": "Sime Road",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.818206669424,1.33564126640076"
+            }
+         },
+         {
+            "name": "Kallang Airport",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.873519652503,1.30867527654573"
+            }
+         },
+         {
+            "name": "Havelock Road Camp River Valley Road Camp",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.838157625545,1.29310125932447"
+            }
+         },
+         {
+            "name": "Clifford Pier",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Clifford Pier was the landing point for sea passengers and immigrants who came to seek a new life in Singapore Named after Sir Hugh Charles Clifford Governor of the Straits Settlements 19271930"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.853362601409,1.28407028767455"
+            }
+         },
+         {
+            "name": "Singapore Badminton Hall",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.881972675243,1.30992025484527"
+            }
+         },
+         {
+            "name": "Katong Park",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.886039596752,1.29712332549661"
+            }
+         },
+         {
+            "name": "Tou Mu Kung Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.882674587771,1.35787026493638"
+            }
+         },
+         {
+            "name": "Pearls Hill School",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.843383608655,1.28536132764796"
+            }
+         },
+         {
+            "name": "Beach Road Police Station",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.859168668015,1.29938131168185"
+            }
+         },
+         {
+            "name": "PeopleÃ¢â‚¬â„¢s Defence Force Camp",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.858970626494,1.29915630686623"
+            }
+         },
+         {
+            "name": "Sime Road Pillbox",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.811744657042,1.33947527007134"
+            }
+         },
+         {
+            "name": "MachineGun Pillbox along Pasir Panjang Road",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.786468612726,1.27808530139124"
+            }
+         },
+         {
+            "name": "National Theatre",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.834762663744,1.29600825387979"
+            }
+         },
+         {
+            "name": "The Arts House at the Old Parliament",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.851371651791,1.2887712806399"
+            }
+         },
+         {
+            "name": "Singapore Polytechnic",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.776450649316,1.31013432500746"
+            }
+         },
+         {
+            "name": "United Chinese Library",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.849288598841,1.29433530879656"
+            }
+         },
+         {
+            "name": "Balestier Plains",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.852836610466,1.32083931908563"
+            }
+         },
+         {
+            "name": "Petain Road Shophouses",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.858527594672,1.31225332145973"
+            }
+         },
+         {
+            "name": "Nanyang Girls High School",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.802344674793,1.33044925089856"
+            }
+         },
+         {
+            "name": "Hindhede Nature Park",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.775741670295,1.3499922574194"
+            }
+         },
+         {
+            "name": "JurongKranji Defence Line",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.716689621961,1.35363932167386"
+            }
+         },
+         {
+            "name": "Punggol Beach",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.909659634479,1.42102830538319"
+            }
+         },
+         {
+            "name": "UE Square",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.841903648534,1.29280127156002"
+            }
+         },
+         {
+            "name": "The Singapore Armed Forces Warrant Officers and Specialists Club",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.856109625555,1.29516130316047"
+            }
+         },
+         {
+            "name": "Swiss Club",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.790694598825,1.34269832755572"
+            }
+         },
+         {
+            "name": "International Baptist Church",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.806144626598,1.31759926996319"
+            }
+         },
+         {
+            "name": "Serene Centre",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.813994600834,1.32259930522463"
+            }
+         },
+         {
+            "name": "Former Queenstown Polyclinic and Dental Clinic",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.804381610434,1.29929029769064"
+            }
+         },
+         {
+            "name": "Johore Battery",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.975120598563,1.37591927133571"
+            }
+         },
+         {
+            "name": "Merdeka Bridge",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.869185635058,1.30505028768973"
+            }
+         },
+         {
+            "name": "Silat Road Sikh Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.816672630702,1.28439425460024"
+            }
+         },
+         {
+            "name": "First Public Dental Clinic",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.838210613491,1.27937227658095"
+            }
+         },
+         {
+            "name": "Former Residence of Chen Wen Hsi",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.80519060523,1.32023331150827"
+            }
+         },
+         {
+            "name": "Dalhousie Obelisk",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.851767629833,1.28764624792573"
+            }
+         },
+         {
+            "name": "Forfar Heights  Strathmore Avenue",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.809112587318,1.29409630974834"
+            }
+         },
+         {
+            "name": "Commonwealth Green",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.797301623924,1.29880727535032"
+            }
+         },
+         {
+            "name": "Residence of Tan Teng Niah",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.850951619729,1.30706730648152"
+            }
+         },
+         {
+            "name": "Unique Shophouses of Jalan Besar",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.857619614192,1.31262330606733"
+            }
+         },
+         {
+            "name": "Former ShawÃ¢â‚¬â„¢s Malay Film Studios",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.851912665689,1.32576431487148"
+            }
+         },
+         {
+            "name": "Rayman Estate",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.857512608882,1.32317733233793"
+            }
+         },
+         {
+            "name": "Cluny Road Conservation Area",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.818870599417,1.30704526117295"
+            }
+         },
+         {
+            "name": "Boat Quay",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.8493576541,1.28765928807517"
+            }
+         },
+         {
+            "name": "Joseph Conrad Plaque",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.852759609397,1.28630127002166"
+            }
+         },
+         {
+            "name": "River House",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.845015648176,1.29010326742763"
+            }
+         },
+         {
+            "name": "Whampoas Ice House",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.84654164357,1.29055933110905"
+            }
+         },
+         {
+            "name": "Ho Chi Minh",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.851905639481,1.28666627716958"
+            }
+         },
+         {
+            "name": "Jose Rizal",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.852096668866,1.28675128696309"
+            }
+         },
+         {
+            "name": "Hong Lim Complex",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.845717651932,1.28456430055411"
+            }
+         },
+         {
+            "name": "Fort Siloso Sentosa",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.807967652433,1.25859527507996"
+            }
+         },
+         {
+            "name": "Tampines mall",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.945769615697,1.34707430163224"
+            }
+         },
+         {
+            "name": "Singapore Philatelic Museum",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.848929621486,1.29279029419336"
+            }
+         },
+         {
+            "name": "Stamford Court",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.850242671755,1.29433231817173"
+            }
+         },
+         {
+            "name": "Changi Beach Park",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.993514658434,1.39040532419904"
+            }
+         },
+         {
+            "name": "New World",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.857184671625,1.30780729630371"
+            }
+         },
+         {
+            "name": "Former Singapore Turf Club at Bukit Timah",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.794600616359,1.33840827051197"
+            }
+         },
+         {
+            "name": "Bukit Timah Saddle Club",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.798530665957,1.3430842542652"
+            }
+         },
+         {
+            "name": "Kwong Wai Shiu Hospital",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.859176673692,1.31769632358964"
+            }
+         },
+         {
+            "name": "Central Sikh Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.860290619652,1.31889730785826"
+            }
+         },
+         {
+            "name": "Masjid AlHuda",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.795348630399,1.32319832041666"
+            }
+         },
+         {
+            "name": "Boon Keng Estate Former Bendemeer House",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.861922648597,1.3179863231141"
+            }
+         },
+         {
+            "name": "Hoon San Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.794364641083,1.3221042945059"
+            }
+         },
+         {
+            "name": "Church of St Ignatius",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.805350664801,1.31785727723158"
+            }
+         },
+         {
+            "name": "Chwee Kang Beo Temple Shui Jiang Miao",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.870048657557,1.31522926074129"
+            }
+         },
+         {
+            "name": "Boon Keng Road",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.862235604127,1.31712825748036"
+            }
+         },
+         {
+            "name": "Bukit Timah Railway Station",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.780684584836,1.33259430462862"
+            }
+         },
+         {
+            "name": "Hwa Chong Institution",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.804961593349,1.32566528487536"
+            }
+         },
+         {
+            "name": "Pei Hwa Presbyterian Primary School",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.776336615607,1.33802229008469"
+            }
+         },
+         {
+            "name": "Methodist Girls School",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.783248608136,1.33294832568246"
+            }
+         },
+         {
+            "name": "Kallang Reclamation Projec",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.869636587942,1.30311928281072"
+            }
+         },
+         {
+            "name": "Sri Manmatha Karuneshvarar Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.866095672777,1.30889026220987"
+            }
+         },
+         {
+            "name": "St Margarets Secondary School",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.809600613935,1.31983127821542"
+            }
+         },
+         {
+            "name": "Nanyang Primary School",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.807601592523,1.32107530120002"
+            }
+         },
+         {
+            "name": "Former Kallang Gasworks",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description -"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.871116660773,1.30833228956266"
+            }
+         }
+      ]
+   }
+}

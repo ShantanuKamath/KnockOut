@@ -26,8 +26,10 @@ import com.parse.ParseUser;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
 
+import layout.SettingsFragment;
+
 public class DrawerActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener, WeatherFragment.OnFragmentInteractionListener, ItineraryFragment.OnFragmentInteractionListener {
+        implements NavigationView.OnNavigationItemSelectedListener, WeatherFragment.OnFragmentInteractionListener, ItineraryFragment.OnFragmentInteractionListener, SettingsFragment.OnFragmentInteractionListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,6 +82,20 @@ public class DrawerActivity extends AppCompatActivity
         drawerDetails= (TextView) header.findViewById(R.id.DrawerEmail);
         drawerDetails.setText(ParseUser.getCurrentUser().getString("email"));
 
+
+
+        Fragment fragment = null;
+        Class fragmentClass = null;
+        fragmentClass = WeatherFragment.class;
+        try {
+            fragment = (Fragment) fragmentClass.newInstance();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
+        setTitle("Home");
+
     }
 
     @Override
@@ -129,14 +145,16 @@ public class DrawerActivity extends AppCompatActivity
         Fragment fragment = null;
         Class fragmentClass = null;
 
-        if (id == R.id.planATrip) {
+        if (id == R.id.nav_home) {
+            fragmentClass = WeatherFragment.class;
+        } else if (id == R.id.planATrip) {
             fragmentClass = ItineraryFragment.class;
         } else if (id == R.id.nav_gallery) {
 
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
-
+            fragmentClass = SettingsFragment.class;
         } else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
@@ -240,6 +258,11 @@ public class DrawerActivity extends AppCompatActivity
 
     public void openHotelList(View view) {
         Intent i = new Intent(this, HotelListActivity.class);
+        startActivity(i);
+    }
+
+    public void openProfile(View view) {
+        Intent i = new Intent(this, ProfileActivity.class);
         startActivity(i);
     }
 }

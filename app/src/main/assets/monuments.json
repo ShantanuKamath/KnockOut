@@ -1,0 +1,1686 @@
+{
+   "Document": {
+      "Placemark": [
+         {
+            "name": "Central Fire Station",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 179367"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - The Central Fire Station is the oldest surviving fire station in Singapore"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.849188577474,1.29215443367309"
+            }
+         },
+         {
+            "name": "Former City Hall",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 178958"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Located in the heart of the Civic District the Former City Hall served as an important government office in Singapore"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.851836662042,1.2908861344338"
+            }
+         },
+         {
+            "name": "College of Medicine Building",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 169854"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - The College of Medicine Building is located at the rear of the Singapore General Hospital’s compound next to Tan Teck Guan Building"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.834176359056,1.28084612375292"
+            }
+         },
+         {
+            "name": "Former Empress Place Building now Asian Civilisations Museum",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 179555"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Situated at the mouth of the Singapore River the Former Empress Place Building was an important government building in Singapore up to the 1980s"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.851422050574,1.28757019423776"
+            }
+         },
+         {
+            "name": "Goodwood Park Hotel Tower Block",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 228221"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - The Tower Wing of the presentday Goodwood Park Hotel was home to the German Teutonia Club one of the earliest European national clubs in Singapore"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.83412649866,1.30812249089833"
+            }
+         },
+         {
+            "name": "Victoria Theatre and Concert Hall",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 179556"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - In the heart of Singapore’s historic Civic District stand the magnificent Victoria Theatre and Victoria Concert Hall with the iconic clock tower"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.851520534737,1.28815061488942"
+            }
+         },
+         {
+            "name": "Ying Fo Fui Kun",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 48474"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Not far from Former Nagore Dargah on Telok Ayer Street is Ying Fo Fui Kun Singapore’s oldest Hakka clan association"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.848463935235,1.28250224329234"
+            }
+         },
+         {
+            "name": "Former Siong Lim Temple now Lian Shan Shuang Lin Monastery",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 319941"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - The traditional architecture of Lian Shan Shuang Lin Monastery – or ‘Twin Grove Monastery on Lotus Hill’ – stands out amidst the modern highrise apartment blocks in the Toa Payoh neighbourhood"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.857342223339,1.33034523681982"
+            }
+         },
+         {
+            "name": "Former Ford Factory now Memories at Old Ford Factory",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 588192"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Built atop a little hill the Former Ford Factory has been a visual landmark in Bukit Timah since its completion in 1941"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.769161675629,1.35294333204439"
+            }
+         },
+         {
+            "name": "Former Raffles College now NUS Campus at Bukit Timah",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 259776"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Located next to the Singapore Botanic Gardens the Former Raffles College is well hidden from the public eye"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.816845675764,1.31832333266377"
+            }
+         },
+         {
+            "name": "Bowyer Block",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 168751"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Amidst the modern blocks in the sprawling compound of Singapore General Hospital stands a Neoclassical building with its distinctive clock tower"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.836288675993,1.28073633317821"
+            }
+         },
+         {
+            "name": "Church of St Teresa",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 99446"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Standing atop a little hill the Church of Saint Teresa was originally constructed for the spiritual needs of the Hokkienspeaking Catholics living in the town area"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.827887675449,1.27278133226873"
+            }
+         },
+         {
+            "name": "Former St James Power Station",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 98544"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - The Former Saint James Power Station was the first coalfired power station on the island"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.824847675935,1.26468533353885"
+            }
+         },
+         {
+            "name": "Former Keng Teck Whay Building",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 68608"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Once home to one of Singapores oldest selfhelp organisations the Former Keng Teck Whay Building is situated next to Thian Hock Keng and is a short walk from AlAbrar Mosque and the Former Nagore D"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.847799674702,1.2811463337618"
+            }
+         },
+         {
+            "name": "Armenian Apostolic Church of Saint Gregory the Illuminator",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 179366"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - The Armenian Apostolic Church of Saint Gregory the Illuminator – commonly called the Armenian Church – is Singapores oldest Christian church"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.849073927812,1.29300281902978"
+            }
+         },
+         {
+            "name": "Former House of Tan Yeok Nee",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 238466"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Standing out prominently from its modern surroundings the Chinesestyle Former House of Tan Yeok Nee is the sole survivor of the ‘Four Grand Mansions’ that were built by Teochew towkays businessmen"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.843242139529,1.29849966939169"
+            }
+         },
+         {
+            "name": "Tan Teck Guan Building",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 169855"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Standing beside the College of Medicine Building is a smaller twostorey building known as Tan Teck Guan Building"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.833329756277,1.28055039746138"
+            }
+         },
+         {
+            "name": "Former Cathay Building now The Cathay",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 229233"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - The Art Deco façade wall fronting the modern glass architecture of The Cathay is the remnant of what used to be Malaya’s tallest building"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.847853114147,1.29933220428501"
+            }
+         },
+         {
+            "name": "Former Thong Chai Medical Institution",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 59803"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Home to the first free traditional Chinese medical clinic for the poor in Singapore the Former Thong Chai Medical Institution testifies to the Chinese pioneers’ spirit of mutual assistance and their"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.845433816713,1.2874163061122"
+            }
+         },
+         {
+            "name": "Sri Perumal Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 218123"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Formerly known as Sri Narasimha Perumal Temple Sri Srinivasa Perumal Temple is the first Hindu temple in Singapore dedicated to Sri Perumal the Hindu deity more commonly known as Vishnu"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.855902852895,1.31332917794809"
+            }
+         },
+         {
+            "name": "Thian Hock Keng",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 68613"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Thian Hock Keng ‘Palace of Heavenly Happiness’ is one of Singapore’s oldest Hokkien temples"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.847488923992,1.28110988779389"
+            }
+         },
+         {
+            "name": "Cathedral of the Good Shepherd",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 188533"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - The Cathedral of the Good Shepherd is Singapores oldest Catholic place of worship and the seat of the local Roman Catholic archbishop"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.851235573667,1.29603197450594"
+            }
+         },
+         {
+            "name": "Church of the Nativity of the Blessed Virgin Mary",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 534795"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - The Church of the Nativity of the Blessed Virgin Mary is one of the earliest Catholic churches built in the suburbs of Singapore"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.898217407487,1.37362626303039"
+            }
+         },
+         {
+            "name": "Prinsep Street Presbyterian Church",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 188649"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Prinsep Street Presbyterian Church is one of Singapore’s oldest Presbyterian churches Its unique façade stands out from the modern buildings surrounding it serving as a reminder of the contributions"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.851109368002,1.30171455231887"
+            }
+         },
+         {
+            "name": "St Georges Church",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 248818"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Saint George’s Church is situated in the quiet environs off Minden Road a short distance from the bustling shopping district of Orchard Road"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.815130861054,1.30479011284793"
+            }
+         },
+         {
+            "name": "St Josephs Church",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 188020"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Saint Joseph’s Church on Victoria Street was the headquarters of the Portuguese Mission in Singapore"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.853151735918,1.29835852985467"
+            }
+         },
+         {
+            "name": "Yueh Hai Ching Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 48696"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Dwarfed by modern skyscrapers in the heart of the Central Business District is one of Singapore’s oldest Chinese temples Yueh Hai Ching Temple"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.84926032307,1.28458155417398"
+            }
+         },
+         {
+            "name": "Former Convent of the Holy Infant Jesus Chapel and Caldwell House now CHIJMES",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 187996"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Owing to its central location the Convent of the Holy Infant Jesus was also affectionately referred to as the Town Convent in the past"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.852159631744,1.29559470739054"
+            }
+         },
+         {
+            "name": "Abdul Gafoor Mosque",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 209369"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Abdul Gafoor Mosques charming architecture stands out amidst the surrounding shophouses in the historic Little India district"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.853690552247,1.30448487313519"
+            }
+         },
+         {
+            "name": "AlAbrar Mosque",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 68635"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Located on Telok Ayer Street a short walk from Thian Hock Keng the Former Keng Teck Whay Building and the Former Nagore Dargah AlAbrar Mosque is one of Singapore’s oldest mosques"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.847153047098,1.28050197644875"
+            }
+         },
+         {
+            "name": "Telok Ayer Chinese Methodist Church",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 68656"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Originally known as the Chinese Methodist Church Telok Ayer Chinese Methodist Church was the first church established to cater exclusively to the spiritual needs of the Chinese Methodist community in"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.846991029046,1.27847393898219"
+            }
+         },
+         {
+            "name": "Hajjah Fatimah Mosque",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 199584"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Hajjah Fatimah Mosque is one of the oldest mosques in Singapore a rare example of one named after a woman"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.862860379657,1.30288930154401"
+            }
+         },
+         {
+            "name": "Jamae Mosque",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 58767"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Like the nearby Sri Mariamman Temple Jamae Mosque has been a familiar landmark on South Bridge Road since the midnineteenth century"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.845337563334,1.28320070098624"
+            }
+         },
+         {
+            "name": "MacDonald House",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 238838"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Located not far from the Istana and the Former Cathay Building MacDonald House has a relatively plain and unadorned façade that does not appear to be exceptionally striking"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.84612602066,1.29920894966418"
+            }
+         },
+         {
+            "name": "Maghain Aboth Synagogue",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 187968"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Located in the former Jewish neighbourhood Maghain Aboth Synagogue is the oldest surviving synagogue not only in Singapore but also in Southeast Asia It is one of Singapore’s two synagogues the ot"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.850599150449,1.29827353840521"
+            }
+         },
+         {
+            "name": "St Andrews Cathedral",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 178959"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Saint Andrews Cathedral is Singapore’s oldest surviving Anglican place of worship and is the seat of the Anglican bishop of Singapore"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.852192404324,1.29218868934997"
+            }
+         },
+         {
+            "name": "Tan Si Chong Su",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 59568"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - The history of Tan Si Chong Su ‘Ancestral Hall of the Tan Clan’ is inextricably linked to the influx of Chinese immigrants into Singapore during the late nineteenth century"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.842919705576,1.28909590422063"
+            }
+         },
+         {
+            "name": "ChesedEl Synagogue",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 238693"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - ChesedEl Synagogue on Oxley Rise is one of two synagogues in Singapore the other being Maghain Aboth Synagogue on Waterloo Street"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.842663561292,1.29725725433252"
+            }
+         },
+         {
+            "name": "Former Singapore Conference Hall and Trade Union House now Singapore Conference Hall",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 68810"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - The Former Singapore Conference Hall and Trade Union House was constructed to house the headquarters of the National Trades Union Congress NTUC as the fulfilment of an election promise as well as t"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.848969674716,1.27620133361518"
+            }
+         },
+         {
+            "name": "Esplanade Park Memorials",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Prior to the first land reclamation in 1843 the original shoreline of Singapore ran across the present Padang"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.853388675045,1.28968433298786"
+            }
+         },
+         {
+            "name": "Former Tanjong Pagar Railway Station",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 89059"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - The Former Tanjong Pagar Railway Station was previously the southernmost terminal station of the Federated Malay States Railways"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.836899675556,1.27279733197982"
+            }
+         },
+         {
+            "name": "Civilian War Memorial",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Not far from the Esplanade Park Memorials stands the Civilian War Memorial the first memorial in Singapore dedicated to the civilian victims of the Japanese Occupation 1942–1945"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.854716674866,1.29288333353134"
+            }
+         },
+         {
+            "name": "Chung Cheng High School Main Administration Building and Entrance Arch",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 439012"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - As one of Singapore’s oldest Chinese high schools Chung Cheng High School was among the firsts to make higher education accessible to Chinese youth"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.89071467607,1.30536333249886"
+            }
+         },
+         {
+            "name": "Sri Thendayuthapani",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 238065"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Sri Thendayuthapani Temple commonly referred to as the Chettiars’ Temple is one of Singapore’s oldest Hindu temples dedicated to Murugan the Hindu deity who is also known as Sri Thendayuthapani"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.84319467549,1.29426133312321"
+            }
+         },
+         {
+            "name": "Alkaff Upper Serangoon Mosque",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 348261"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Alkaff Upper Serangoon Mosque was constructed by the mercantile and landowning Alkaff family to serve the spiritual needs of the local Muslim community at large"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.870357674735,1.33293833246554"
+            }
+         },
+         {
+            "name": "Jurong Town Hall",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 609431"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - On a hill overlooking Jurong estate Jurong Town Hall once served as the headquarters of Jurong Town Corporation JTC presently JTC Corporation"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.742210674731,1.32898433241873"
+            }
+         },
+         {
+            "name": "Istana Kampong Gelam",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 198501"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Within the historic district of Kampong Gelam lies Istana Kampong Gelam Gelam Village Palace"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.860106674696,1.30242133373008"
+            }
+         },
+         {
+            "name": "Former Saint Josephs Institution now Singapore Art Museum",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 189555"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Saint Josephs Institution is the oldest Catholic boys school in Singapore and was founded by the Christian Brothers formally known as the Institute of the Brothers of the Christian Schools"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.851050675412,1.29725933267136"
+            }
+         },
+         {
+            "name": "Former AttorneyGenerals Chambers now Parliament House Block C",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 178880"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Tucked away in a corner near the Padang is a beautiful structure that once housed the AttorneyGenerals Chambers"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.850832675106,1.28911733239469"
+            }
+         },
+         {
+            "name": "Former Nanyang University Library and Administration Building Memorial and Arch",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode -"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Nanyang University affectionately known as Nantah was the first Chineselanguage university in Southeast Asia and the second university in Singapore"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.683123675697,1.34831533311849"
+            }
+         },
+         {
+            "name": "Former Command House",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 298791"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - The stately Former Command House is located near Bukit Timah Road a major road constructed during the midnineteenth century and one of the last defences against the invading Japanese troops in 1942"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.819147675814,1.32559733240857"
+            }
+         },
+         {
+            "name": "Tou Mu Kung Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 534648"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Tou Mu Kung Temple is the oldest temple in Singapore dedicated to the Taoist deity Jiu Huang Ye ‘Nine Emperors’ or ‘Ninth Emperor’"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.878844403273,1.35527156077695"
+            }
+         },
+         {
+            "name": "Church of Saints Peter and Paul",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 188551"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - The Church of Saints Peter and Paul is one of the oldest Catholic churches in Singapore that catered to a predominantly Chinese congregation"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.851269101455,1.2978803159091"
+            }
+         },
+         {
+            "name": "Hong San See",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 238975"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Hong San See ‘Temple on Phoenix Hill’ perched on the side of Institution Hill off Mohamed Sultan Road was established by Hokkien immigrants from Nan’an or Lam Ann County in Fujian Province Chin"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.84085621906,1.29330382954037"
+            }
+         },
+         {
+            "name": "Chinese High School Clock Tower",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 269735"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - The Chinese High School Clock Tower Building is the icon of the oldest Chinesemedium high school in Singapore and has been a visual landmark of Bukit Timah Road since its completion"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.80142525022,1.32511113744479"
+            }
+         },
+         {
+            "name": "The Istana and Sri Temasek",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 238823"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Shielded from the bustling Orchard Road by a sprawling green lung the Istana ‘Palace’ in Malay is the official residence of the President of the Republic of Singapore"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.843291593364,1.30713092654916"
+            }
+         },
+         {
+            "name": "Former Telok Ayer Market now known as Lau Pa Sat",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 48582"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Affectionately known as Lau Pa Sat ‘Old Market’ by generations of Singaporeans the Former Telok Ayer Market was one of Singapore’s oldest markets"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.850424894268,1.2805385824713"
+            }
+         },
+         {
+            "name": "Former Supreme Court",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 178957"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Amidst the colonial buildings and skyscrapers of the Civic District rises the coppergreen dome of the Former Supreme Court"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.851258800971,1.28974781549504"
+            }
+         },
+         {
+            "name": "Former Tao Nan School now The Peranakan Museum",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 179941"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - A stone’s throw from the Armenian Church is a centuryold building that used to house Tao Nan School the first modern Chinese school in Singapore and one of the earliest of its kind in the Straits Se"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.8491636109,1.29423664338411"
+            }
+         },
+         {
+            "name": "Former Ministry of Labour Building now Family Justice Courts",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 59724"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - The Former Ministry of Labour Building is located not far away from the Former Thong Chai Medical Institution and Tan Si Chong Su"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.843043515642,1.28674265499989"
+            }
+         },
+         {
+            "name": "Former Nagore Dargah",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 68604"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - The Former Nagore Dargah is situated on the historic Telok Ayer Street a short distance from Telok Ayer Chinese Methodist Church AlAbrar Mosque Thian Hock Keng and the Former Keng Teck Whay Build"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.847800987415,1.2814574334737"
+            }
+         },
+         {
+            "name": "Sri Mariamman Temple",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 58793"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Together with Jamae Mosque Sri Mariamman Temple – Singapore’s oldest Hindu temple – is an enduring icon on South Bridge Road which is a part of Chinatown"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.84530530171,1.28251826647644"
+            }
+         },
+         {
+            "name": "Church of Our Lady of Lourdes",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 188690"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - The Church of our Lady of Lourdes"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.856070340424,1.30321087316648"
+            }
+         },
+         {
+            "name": "Former Admiralty House",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 758692"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Surrounded by several ancillary buildings and facilities on a sprawling estate the Former Admiralty House used to accommodate key military commanders based in Singapore It bears testimony to the for"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.824544143217,1.4473781047384"
+            }
+         },
+         {
+            "name": "Former Hill Street Police Station",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 179369"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Nicknamed the ‘Police Skyscraper’ in the past the Former Hill Street Police Station is prominently located at the junction of Hill Street and River Valley Road"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.848272325665,1.29088489281398"
+            }
+         },
+         {
+            "name": "Former Parliament House and Annex Building now The Arts House",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 179429"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - The Former Parliament House is likely to be the oldest surviving building in Singapore"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.850803324452,1.28874994252065"
+            }
+         },
+         {
+            "name": "Raffles Hotel",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 189673"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Raffles Hotel is one of the most wellknown luxury hotels in Singapore and the oldest surviving establishment of its kind on the island"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.854274079569,1.2949353183334"
+            }
+         },
+         {
+            "name": "National Museum of Singapore",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 178897"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - With its wide façade and large dome the National Museum of Singapore has been a prominent landmark on Stamford Road for over a century"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.848485674655,1.2966621548588"
+            }
+         },
+         {
+            "name": "Former Sun Yat Sen Villa now Sun Yat Sen Nanyang Memorial Hall",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 327874"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Sun Yatsen Nanyang Memorial Hall is one of the few surviving examples of villas that were once common sights in British Singapore"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.847252956699,1.32813486698771"
+            }
+         },
+         {
+            "name": "Sultan Mosque",
+            "description": {
+               "p": [
+                  {
+                     "font": {
+                        "@color": "red",
+                        "i": null,
+                        "b": "PostalCode - 198833"
+                     }
+                  },
+                  {
+                     "font": {
+                        "@color": "Blue",
+                        "i": null,
+                        "b": "Description - Formerly the royal mosque of the Sultan of Johor Sultan Mosque represents the solidarity and unity of Muslims in Singapore"
+                     }
+                  }
+               ]
+            },
+            "Point": {
+               "coordinates": "103.859363774446,1.30254043644335"
+            }
+         }
+      ]
+   }
+}

@@ -14,6 +14,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.parse.ParseUser;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -27,6 +29,9 @@ import java.math.BigDecimal;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -39,7 +44,7 @@ import java.net.URLEncoder;
 public class WeatherFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
-    TextView country, temp, weather, description;
+    TextView country, temp, weather, description,helloUser ;
     ImageView wIcon;
     public WeatherFragment() {
         // Required empty public constructor
@@ -63,12 +68,55 @@ public class WeatherFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_weather, container, false);
 
+        helloUser = (TextView) view.findViewById(R.id.helloUser);
         country = (TextView) view.findViewById(R.id.country);
         temp = (TextView) view.findViewById(R.id.temp);
         weather = (TextView) view.findViewById(R.id.weather);
         description = (TextView) view.findViewById(R.id.weatherDesc);
-
         wIcon = (ImageView) view.findViewById(R.id.weatherIcon);
+        TextView day1 = (TextView) view.findViewById(R.id.day1);
+        TextView day2 = (TextView) view.findViewById(R.id.day2);
+        TextView day3 = (TextView) view.findViewById(R.id.day3);
+        TextView day4 = (TextView) view.findViewById(R.id.day4);
+        TextView day5 = (TextView) view.findViewById(R.id.day5);
+        TextView dateToday = (TextView) view.findViewById(R.id.date);
+
+        helloUser.setText("Hello, " + ParseUser.getCurrentUser().getString("name"));
+
+        Calendar calendar = Calendar.getInstance();
+        SimpleDateFormat sdf = new SimpleDateFormat("EEEE, d MMMM, ''yy");
+        Date d = calendar.getTime();
+        String day = sdf.format(d);
+
+        dateToday.setText(day);
+         sdf = new SimpleDateFormat("EEE");
+
+
+        calendar.add(Calendar.DAY_OF_YEAR, 1);
+        d = calendar.getTime();
+        day = sdf.format(d);
+        day1.setText(day);
+
+        calendar.add(Calendar.DAY_OF_YEAR, 1);
+        d = calendar.getTime();
+        day = sdf.format(d);
+        day2.setText(day);
+
+        calendar.add(Calendar.DAY_OF_YEAR, 1);
+        d = calendar.getTime();
+        day = sdf.format(d);
+        day3.setText(day);
+
+        calendar.add(Calendar.DAY_OF_YEAR, 1);
+        d = calendar.getTime();
+        day = sdf.format(d);
+        day4.setText(day);
+
+        calendar.add(Calendar.DAY_OF_YEAR, 1);
+        d = calendar.getTime();
+        day = sdf.format(d);
+        day5.setText(day);
+
         new OpenWeatherMapTask("Singapore", country,temp, weather, description, wIcon).execute();
         return view;
     }
@@ -128,6 +176,8 @@ public class WeatherFragment extends Fragment {
 
         @Override
         protected void onPostExecute(String s) {
+            String weatherIcons[] = {"sky is clear", "few clouds", "scattered clouds", "broken clouds", "shower rain", "Rain", "Thunderstorm", "snow", "mist"};
+            int wIcons[] ={R.drawable.weather_1,R.drawable.weather_2,R.drawable.weather_4,R.drawable.weather_3,R.drawable.weather_5,R.drawable.weather_6,R.drawable.weather_7,R.drawable.weather_8,R.drawable.weather_9};
             if (s.length()>0) {
                 int start = 0;
                 int end = s.indexOf("\n");
@@ -147,7 +197,11 @@ public class WeatherFragment extends Fragment {
                 description.setText(s.substring(start, end));
                 start = end + 1;
                 end = s.indexOf("\n", start);
-                new ImageDownloader(wIcon).execute("http://openweathermap.org/img/w/" + s.substring(start, end) + ".png");
+                for (int i=0; i<weatherIcons.length; i++) {
+                    if (description.getText().toString().equals(weatherIcons[i])) {
+                        wIcon.setImageResource(wIcons[i]);
+                    }
+                }
             }
         }
 

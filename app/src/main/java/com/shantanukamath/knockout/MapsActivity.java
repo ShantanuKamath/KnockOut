@@ -83,7 +83,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
         mMap.addMarker(new MarkerOptions().position(marker).title(hName.getText().toString())).showInfoWindow();
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(marker, (float) 14.0));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(marker, (float) 12.0));
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             return;
         }

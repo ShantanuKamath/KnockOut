@@ -10,14 +10,20 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:theme="@style/ThemeOverlay.AppCompat.Dark"
     android:orientation="vertical"
-    android:gravity="bottom">
+    android:gravity="bottom"
+    android:onClick="openProfile"
+    android:clickable="true"
+    >
+
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:src="@android:drawable/sym_def_app_icon"
-        android:id="@+id/imageView" />
+        android:id="@+id/imageView"
+        android:clickable="true"
+        android:onClick="openProfile"/>
 
     <TextView
         android:id="@+id/DrawerName"
@@ -25,12 +31,16 @@
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:text="Android Studio"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+        android:clickable="true"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:onClick="openProfile"/>
 
     <TextView
         android:id="@+id/DrawerEmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="android.studio@android.com" />
+        android:text="android.studio@android.com"
+        android:onClick="openProfile"
+        android:clickable="true"/>
 
 </LinearLayout>

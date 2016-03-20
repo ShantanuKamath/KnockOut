@@ -1,9 +1,12 @@
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle" >
     <gradient
+        android:onClick="openProfile"
         android:startColor="#f56565"
         android:centerColor="#af0000"
         android:endColor="@color/colorPrimaryDark"
         android:type="linear"
-        android:angle="135"/>
+        android:angle="135"
+        android:clickable="true"
+        />
 </shape>
