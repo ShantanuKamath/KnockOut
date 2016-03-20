@@ -1,24 +1,33 @@
-package layout;
+package com.shantanukamath.knockout;
 
 import android.content.Context;
+import android.content.Intent;
+import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
+import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.TextView;
 
-import com.shantanukamath.knockout.R;
+import com.parse.ParseUser;
+
+import java.util.ArrayList;
+
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link SettingsFragment.OnFragmentInteractionListener} interface
+ * {@link ShowFriendsFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link SettingsFragment#newInstance} factory method to
+ * Use the {@link ShowFriendsFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class SettingsFragment extends Fragment {
+public class ShowFriendsFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -30,7 +39,7 @@ public class SettingsFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public SettingsFragment() {
+    public ShowFriendsFragment() {
         // Required empty public constructor
     }
 
@@ -40,11 +49,11 @@ public class SettingsFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment SettingsFragment.
+     * @return A new instance of fragment ShowFriendsFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static SettingsFragment newInstance(String param1, String param2) {
-        SettingsFragment fragment = new SettingsFragment();
+    public static ShowFriendsFragment newInstance(String param1, String param2) {
+        ShowFriendsFragment fragment = new ShowFriendsFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -65,8 +74,40 @@ public class SettingsFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_settings, container, false);
+        View v= inflater.inflate(R.layout.fragment_show_friends, container, false);
+
+        ParseUser user = ParseUser.getCurrentUser();
+        ArrayList<String> Logs = (ArrayList<String>) user.get("friends");
+        ArrayAdapter<String> mLogsAdapter = null;
+        if(Logs!=null) {
+            mLogsAdapter = new ArrayAdapter<String>(getActivity().getApplicationContext(), android.R.layout.simple_list_item_1, Logs) {
+                @Override
+                public View getView(int position, View convertView,
+                                    ViewGroup parent) {
+                    View view = super.getView(position, convertView, parent);
+                    TextView textView = (TextView) view.findViewById(android.R.id.text1);
+            /*YOUR CHOICE OF COLOR*/
+                    textView.setTextColor(Color.BLACK);
+                    return view;
+                }
+            };
+        }
+        ListView listView = (ListView) v.findViewById(R.id.lv_show_friends);
+        if (mLogsAdapter!=null)
+            listView.setAdapter(mLogsAdapter);
+
+        FloatingActionButton fab = (FloatingActionButton) v.findViewById(R.id.fab);
+        fab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), AddFriendsActivity.class);
+                startActivity(i);
+            }
+        });
+        return v;
     }
+
+
 
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {

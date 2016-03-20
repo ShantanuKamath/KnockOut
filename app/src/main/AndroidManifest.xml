@@ -89,7 +89,8 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCjsEbA3bqVtmk-kFY5-Fnjl7uz3GPERxA" />
 
-        <activity android:name=".ProfileActivity"></activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".AddFriendsActivity" />
     </application>
 
 </manifest>

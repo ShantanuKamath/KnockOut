@@ -26,10 +26,8 @@ import com.parse.ParseUser;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
 
-import layout.SettingsFragment;
-
 public class DrawerActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener, WeatherFragment.OnFragmentInteractionListener, ItineraryFragment.OnFragmentInteractionListener, SettingsFragment.OnFragmentInteractionListener {
+        implements NavigationView.OnNavigationItemSelectedListener, WeatherFragment.OnFragmentInteractionListener, ItineraryFragment.OnFragmentInteractionListener, SettingsFragment.OnFragmentInteractionListener,ShowFriendsFragment.OnFragmentInteractionListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -96,6 +94,13 @@ public class DrawerActivity extends AppCompatActivity
         fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
         setTitle("Home");
 
+        Intent i = getIntent();
+        if(i.getSerializableExtra("addedFriends")!=null) {
+            boolean flag = (boolean) i.getSerializableExtra("addedFriends");
+            if (flag) {
+                addedFriendsDone();
+            }
+        }
     }
 
     @Override
@@ -149,8 +154,8 @@ public class DrawerActivity extends AppCompatActivity
             fragmentClass = WeatherFragment.class;
         } else if (id == R.id.planATrip) {
             fragmentClass = ItineraryFragment.class;
-        } else if (id == R.id.nav_gallery) {
-
+        } else if (id == R.id.nav_friends) {
+            fragmentClass = ShowFriendsFragment.class;
         } else if (id == R.id.nav_slideshow) {
 
         } else if (id == R.id.nav_manage) {
@@ -264,5 +269,27 @@ public class DrawerActivity extends AppCompatActivity
     public void openProfile(View view) {
         Intent i = new Intent(this, ProfileActivity.class);
         startActivity(i);
+    }
+
+    public void addedFriendsDone() {
+
+        Fragment fragment = null;
+        Class fragmentClass = null;
+        fragmentClass = ShowFriendsFragment.class;
+        try {
+            fragment = (Fragment) fragmentClass.newInstance();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
+        setTitle("Friends");
+    }
+
+    public void logout(View view) {
+        ParseUser.logOut();
+        Intent i = new Intent(this, DispatchActivity.class);
+        startActivity(i);
+        this.finish();
     }
 }

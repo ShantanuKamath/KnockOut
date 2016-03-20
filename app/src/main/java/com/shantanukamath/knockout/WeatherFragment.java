@@ -44,8 +44,10 @@ import java.util.Date;
 public class WeatherFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
-    TextView country, temp, weather, description,helloUser ;
+    TextView country, temp, weather, description, helloUser;
     ImageView wIcon;
+    String PSI = "";
+
     public WeatherFragment() {
         // Required empty public constructor
     }
@@ -89,7 +91,7 @@ public class WeatherFragment extends Fragment {
         String day = sdf.format(d);
 
         dateToday.setText(day);
-         sdf = new SimpleDateFormat("EEE");
+        sdf = new SimpleDateFormat("EEE");
 
 
         calendar.add(Calendar.DAY_OF_YEAR, 1);
@@ -117,27 +119,29 @@ public class WeatherFragment extends Fragment {
         day = sdf.format(d);
         day5.setText(day);
 
-        new OpenWeatherMapTask("Singapore", country,temp, weather, description, wIcon).execute();
+        new OpenWeatherMapTask("Singapore", country, temp, weather, description, wIcon).execute();
         return view;
     }
 
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        try{
-            mListener=  (OnFragmentInteractionListener) context;
-        }catch(ClassCastException e)
-        {
+        try {
+            mListener = (OnFragmentInteractionListener) context;
+        } catch (ClassCastException e) {
             throw new ClassCastException(context.toString());
         }
     }
+
     public interface OnFragmentInteractionListener {
         void onFragmentInteraction(Uri uri);
     }
+
+
     private class OpenWeatherMapTask extends AsyncTask<Void, Void, String> {
 
         String cityName;
-        TextView country,temp, weather, description;
+        TextView country, temp, weather, description;
         ImageView wIcon;
         String dummyAppid = "802118f9c5ed27951804b4f5fe5b584d";
         String queryWeather = "http://api.openweathermap.org/data/2.5/weather?q=";
@@ -177,8 +181,8 @@ public class WeatherFragment extends Fragment {
         @Override
         protected void onPostExecute(String s) {
             String weatherIcons[] = {"sky is clear", "few clouds", "scattered clouds", "broken clouds", "shower rain", "Rain", "Thunderstorm", "snow", "mist"};
-            int wIcons[] ={R.drawable.weather_1,R.drawable.weather_2,R.drawable.weather_4,R.drawable.weather_3,R.drawable.weather_5,R.drawable.weather_6,R.drawable.weather_7,R.drawable.weather_8,R.drawable.weather_9};
-            if (s.length()>0) {
+            int wIcons[] = {R.drawable.weather_1, R.drawable.weather_2, R.drawable.weather_4, R.drawable.weather_3, R.drawable.weather_5, R.drawable.weather_6, R.drawable.weather_7, R.drawable.weather_8, R.drawable.weather_9};
+            if (s.length() > 0) {
                 int start = 0;
                 int end = s.indexOf("\n");
                 country.setText(s.substring(start, end));
@@ -197,7 +201,7 @@ public class WeatherFragment extends Fragment {
                 description.setText(s.substring(start, end));
                 start = end + 1;
                 end = s.indexOf("\n", start);
-                for (int i=0; i<weatherIcons.length; i++) {
+                for (int i = 0; i < weatherIcons.length; i++) {
                     if (description.getText().toString().equals(weatherIcons[i])) {
                         wIcon.setImageResource(wIcons[i]);
                     }
@@ -247,7 +251,7 @@ public class WeatherFragment extends Fragment {
 
                         JSONObject main = jsonHelperGetJSONObject(JsonObject, "main");
                         if (main != null) {
-                            jsonResult +=jsonHelperGetString(main, "temp") + "\n";
+                            jsonResult += jsonHelperGetString(main, "temp") + "\n";
                         }
 
                         JSONArray weather = jsonHelperGetJSONArray(JsonObject, "weather");
@@ -256,7 +260,7 @@ public class WeatherFragment extends Fragment {
                                 JSONObject thisWeather = weather.getJSONObject(i);
                                 jsonResult += jsonHelperGetString(thisWeather, "main") + "\n";
                                 jsonResult += jsonHelperGetString(thisWeather, "description") + "\n";
-                                jsonResult += jsonHelperGetString(thisWeather, "icon")+"\n";
+                                jsonResult += jsonHelperGetString(thisWeather, "icon") + "\n";
                             }
                         }
                         //...incompleted
@@ -312,6 +316,8 @@ public class WeatherFragment extends Fragment {
             return a;
         }
     }
+
+
     class ImageDownloader extends AsyncTask<String, Void, Bitmap> {
         ImageView bmImage;
 
@@ -330,6 +336,7 @@ public class WeatherFragment extends Fragment {
             }
             return mIcon;
         }
+
 
         protected void onPostExecute(Bitmap result) {
             bmImage.setImageBitmap(result);

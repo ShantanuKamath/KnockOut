@@ -13,4 +13,6 @@
     <string name="title_activity_weather">WeatherActivity</string>
     <string name="title_activity_hotel_detail">HotelDetailActivity</string>
     <string name="title_activity_maps">Map</string>
+    <string name="title_activity_test">Test</string>
+    <string name="NEA_KEY">781CF461BB6606AD62B1E1CAA87ECA61F504D1F5818410BD</string>
 </resources>
