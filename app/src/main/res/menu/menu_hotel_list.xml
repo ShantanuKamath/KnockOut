@@ -2,11 +2,16 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.shantanukamath.knockout.HotelListActivity"
-    >
+    tools:context="com.shantanukamath.knockout.HotelListActivity">
+    <item
+        android:id="@+id/details"
+        android:orderInCategory="200"
+        android:title="DETAILS"
+        app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/next"
         android:orderInCategory="200"
         android:title="NEXT"
         app:showAsAction="ifRoom"/>
+
 </menu>

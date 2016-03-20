@@ -94,21 +94,21 @@ public class HotelListActivity extends AppCompatActivity {
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
 
+        AutoCompleteTextView ac = (AutoCompleteTextView) findViewById(R.id.rest_name);
+        String name = ac.getText().toString();
+
         //noinspection SimplifiableIfStatement
         if (id == R.id.next) {
-            Intent i = new Intent(this, HotelDetailActivity.class);
-            AutoCompleteTextView ac = (AutoCompleteTextView) findViewById(R.id.rest_name);
-            String name = ac.getText().toString();
-            i.putExtra("name", name);
-            i.putExtra("coordinates", getLatLong(name));
-            Log.v("coordinates",getLatLong(name));
-
-            startActivity(i);
-
             changeHotelData(name);
             return true;
-        }
+        } else if (id == R.id.details) {
+            Intent i = new Intent(this, MapsActivity.class);
+            i.putExtra("name", name);
+            i.putExtra("coordinates", getLatLong(name));
+            i.putExtra("postal", getPostal(name));
+            startActivity(i);
 
+        }
         return super.onOptionsItemSelected(item);
     }
 
@@ -142,7 +142,7 @@ public class HotelListActivity extends AppCompatActivity {
             JSONArray hotelDetails = obj.getJSONArray("Placemark");
             for (int i = 0; i < hotelDetails.length(); i++) {
                 JSONObject j_obj = hotelDetails.getJSONObject(i);
-                if(j_obj.getString("name").equals(name)) {
+                if (j_obj.getString("name").equals(name)) {
                     JSONObject point = j_obj.getJSONObject("Point");
                     return point.getString("coordinates");
                 }
@@ -150,6 +150,30 @@ public class HotelListActivity extends AppCompatActivity {
         } catch (JSONException e) {
             e.printStackTrace();
 
+        }
+        return null;
+    }
+
+    public String getPostal(String name) {
+        try {
+            JSONObject hotelData = new JSONObject(loadJSONFromAsset());
+            JSONObject obj = hotelData.getJSONObject("Document");
+            JSONArray hotelDetails = obj.getJSONArray("Placemark");
+            for (int i = 0; i < hotelDetails.length(); i++) {
+                JSONObject j_obj = hotelDetails.getJSONObject(i);
+                if (j_obj.getString("name").equals(name)) {
+                    JSONObject des = j_obj.getJSONObject("description");
+                    JSONArray p = des.getJSONArray("p");
+                    JSONObject p0 = p.getJSONObject(0);
+                    JSONObject font = p0.getJSONObject("font");
+                    String postal = font.getString("b");
+                    Log.v("BLAH",(postal).substring(postal.length()-6, postal.length() ));
+                    return (postal).substring(postal.length()-6, postal.length() );
+                }
+            }
+
+        } catch (JSONException e) {
+            e.printStackTrace();
         }
         return null;
     }
