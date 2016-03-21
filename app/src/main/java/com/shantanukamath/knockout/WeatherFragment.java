@@ -30,6 +30,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -44,9 +45,10 @@ import java.util.Date;
 public class WeatherFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
-    TextView country, temp, weather, description, helloUser;
+    TextView country, temp, weather, description, helloUser, psiData;
     ImageView wIcon;
-    String PSI = "";
+    String[] PSI ;
+    String JsonStr = null;
 
     public WeatherFragment() {
         // Required empty public constructor
@@ -82,9 +84,10 @@ public class WeatherFragment extends Fragment {
         TextView day4 = (TextView) view.findViewById(R.id.day4);
         TextView day5 = (TextView) view.findViewById(R.id.day5);
         TextView dateToday = (TextView) view.findViewById(R.id.date);
+        psiData = (TextView) view.findViewById(R.id.psiValue);
+
 
         helloUser.setText("Hello, " + ParseUser.getCurrentUser().getString("name"));
-
         Calendar calendar = Calendar.getInstance();
         SimpleDateFormat sdf = new SimpleDateFormat("EEEE, d MMMM, ''yy");
         Date d = calendar.getTime();
@@ -120,6 +123,8 @@ public class WeatherFragment extends Fragment {
         day5.setText(day);
 
         new OpenWeatherMapTask("Singapore", country, temp, weather, description, wIcon).execute();
+        FetchLocationTask flt = new FetchLocationTask();
+        flt.execute();
         return view;
     }
 
@@ -342,4 +347,89 @@ public class WeatherFragment extends Fragment {
             bmImage.setImageBitmap(result);
         }
     }
+
+    public class FetchLocationTask extends AsyncTask<Void, Void, ArrayList<String[]>> {
+
+        @Override
+        protected ArrayList<String[]> doInBackground(Void... params) {
+
+            HttpURLConnection urlConnection = null;
+            BufferedReader reader = null;
+
+            try {
+                final String BASE_ADDR = "http://sghaze.herokuapp.com";
+                Uri builtUri = Uri.parse(BASE_ADDR).buildUpon().build();
+                Log.d("REST", builtUri.toString());
+                URL url = new URL(builtUri.toString());
+                urlConnection = (HttpURLConnection) url.openConnection();
+                urlConnection.setRequestMethod("GET");
+                urlConnection.connect();
+
+                // Read the input stream into a String
+                InputStream inputStream = urlConnection.getInputStream();
+                StringBuffer buffer = new StringBuffer();
+                if (inputStream == null) {
+                    // Nothing to do.
+                    return null;
+                }
+                reader = new BufferedReader(new InputStreamReader(inputStream));
+
+                String line;
+                while ((line = reader.readLine()) != null) {
+                    // Since it's JSON, adding a newline isn't necessary (it won't affect parsing)
+                    // But it does make debugging a *lot* easier if you print out the completed
+                    // buffer for debugging.
+                    buffer.append(line + "\n");
+                }
+
+                if (buffer.length() == 0) {
+                    // Stream was empty.  No point in parsing.
+                    return null;
+                }
+                JsonStr = buffer.toString();
+            } catch (IOException e) {
+                Log.e("FRIENDS", "Error ", e);
+                // If the code didn't successfully get the weather data, there's no point in attemping
+                // to parse it.
+                return null;
+            } finally {
+                if (urlConnection != null) {
+                    urlConnection.disconnect();
+                }
+                if (reader != null) {
+                    try {
+                        reader.close();
+                    } catch (final IOException e) {
+                        Log.e("FRIENDS", "Error closing stream", e);
+                    }
+                }
+            }
+            try {
+                return getLocationDataFromJson(JsonStr);
+            } catch (JSONException e) {
+                Log.e("FRIENDS", e.getMessage(), e);
+                e.printStackTrace();
+            }
+
+            // This will only happen if there was an error getting or parsing the forecast.
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(ArrayList<String[]> result) {
+            if (result != null) {
+                psiData.setText(PSI[0]);
+            }
+        }
+    }
+    private ArrayList<String[]> getLocationDataFromJson(String JsonStr)
+            throws JSONException {
+        ArrayList<String[]> result = new ArrayList<>();
+        JSONObject JsonObj = new JSONObject(JsonStr);
+        PSI = new String[1];
+        PSI[0]=JsonObj.getString("North");
+        result.add(PSI);
+        return result;
+    }
+
 }

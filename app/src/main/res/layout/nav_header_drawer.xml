@@ -13,7 +13,7 @@
     android:gravity="bottom"
     android:onClick="openProfile"
     android:clickable="true"
-    >
+    tools:context="com.shantanukamath.knockout.DrawerActivity">
 
 
     <ImageView
@@ -23,6 +23,7 @@
         android:src="@android:drawable/sym_def_app_icon"
         android:id="@+id/imageView"
         android:clickable="true"
+        android:contextClickable="true"
         android:onClick="openProfile"/>
 
     <TextView
@@ -32,6 +33,7 @@
         android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:text="Android Studio"
         android:clickable="true"
+        android:contextClickable="true"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:onClick="openProfile"/>
 
@@ -41,6 +43,7 @@
         android:layout_height="wrap_content"
         android:text="android.studio@android.com"
         android:onClick="openProfile"
+        android:contextClickable="true"
         android:clickable="true"/>
 
 </LinearLayout>
