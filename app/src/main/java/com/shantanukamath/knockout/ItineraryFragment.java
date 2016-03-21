@@ -5,18 +5,25 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.CheckBox;
 import android.widget.DatePicker;
 import android.widget.TextView;
 
+import com.parse.ParseObject;
+import com.parse.ParseUser;
+
+import java.util.ArrayList;
 import java.util.Calendar;
 
 public class ItineraryFragment extends Fragment {
 
     private OnFragmentInteractionListener mListener;
-    public static TextView numFriends;
+    public static TextView TripName;
     static final Calendar toCalendar = Calendar.getInstance();
     static final Calendar fromCalendar = Calendar.getInstance();
 
@@ -50,8 +57,8 @@ public class ItineraryFragment extends Fragment {
                              Bundle savedInstanceState) {
         final View v =  inflater.inflate(R.layout.fragment_itinerary, container, false);
 
-        TextView toText = (TextView) v.findViewById(R.id.to_text);
-        TextView fromText = (TextView) v.findViewById(R.id.from_text);
+        final TextView toText = (TextView) v.findViewById(R.id.to_text);
+        final TextView fromText = (TextView) v.findViewById(R.id.from_text);
 
         final DatePickerDialog.OnDateSetListener todate = new DatePickerDialog.OnDateSetListener() {
 
@@ -100,7 +107,42 @@ public class ItineraryFragment extends Fragment {
 
         q1 = (TextView) v.findViewById(R.id.quantity1);
         q2 = (TextView) v.findViewById(R.id.quantity2);
+        TripName = (TextView) v.findViewById(R.id.TripName);
         hotelName = (TextView) v.findViewById(R.id.HotelName);
+        Button submitBtn = (Button) v.findViewById(R.id.submitBtn);
+
+        final CheckBox business = (CheckBox) v.findViewById(R.id.PBusiness);
+        final CheckBox education = (CheckBox) v.findViewById(R.id.PEducation);
+        final CheckBox leisure = (CheckBox) v.findViewById(R.id.PLeisure);
+
+        submitBtn.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Log.v("BLAH", "ENtered ONCLICK");
+
+                        ParseObject Itineraries = new ParseObject("Itineraries");
+                        if(Itineraries==null)
+                             Log.v("BLAH", "Itineraries is null");
+                        Itineraries.put("HotelName", hotelName.getText().toString());
+                        Itineraries.put("ToDate", toText.getText().toString());
+                        Itineraries.put("FromDate", fromText.getText().toString());
+                        Itineraries.put("NoOfAdults", quantity1);
+                        Itineraries.put("NoOfKids", quantity2);
+                        Itineraries.put("ItinName", TripName.getText().toString());
+                        ArrayList<String> checked = new ArrayList<String>();
+                        if(leisure.isChecked())
+                            checked.add("Leisure");
+                        if(education.isChecked())
+                            checked.add("Education");
+                        if(business.isChecked())
+                            checked.add("Business");
+                        Itineraries.put("Purpose", checked);
+                        Itineraries.put("UserName", ParseUser.getCurrentUser().getString("name"));
+                        Itineraries.saveInBackground();
+                    }
+                }
+        );
         return v;
     }
 
@@ -130,7 +172,5 @@ public class ItineraryFragment extends Fragment {
     public interface OnFragmentInteractionListener {
         void onFragmentInteraction(Uri uri);
     }
-
-
 
 }
