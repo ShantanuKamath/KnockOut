@@ -21,10 +21,15 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.parse.FunctionCallback;
+import com.parse.ParseCloud;
+import com.parse.ParseException;
 import com.parse.ParseUser;
 
 import java.text.SimpleDateFormat;
+import java.util.HashMap;
 import java.util.Locale;
+import java.util.Map;
 
 public class DrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, WeatherFragment.OnFragmentInteractionListener, ItineraryFragment.OnFragmentInteractionListener, SettingsFragment.OnFragmentInteractionListener,ShowFriendsFragment.OnFragmentInteractionListener {
@@ -101,6 +106,7 @@ public class DrawerActivity extends AppCompatActivity
                 addedFriendsDone();
             }
         }
+        sendMail();
     }
 
     @Override
@@ -293,5 +299,38 @@ public class DrawerActivity extends AppCompatActivity
         this.finish();
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public void sendMail() {
+        Map<String, String> params = new HashMap<>();
+        params.put("text", "Sample mail body");
+        params.put("subject", "Test Parse Push");
+        params.put("fromEmail", "someone@example.com");
+        params.put("fromName", "Source User");
+        params.put("toEmail", "shantanukamath@live.in");
+        params.put("toName", "Target user");
+        ParseCloud.callFunctionInBackground("sendMail", params, new FunctionCallback<Object>() {
+            @Override
+            public void done(Object response, ParseException exc) {
+                Log.e("cloud code example", "response: " + response);
+            }
+        });
+    }
 
 }
