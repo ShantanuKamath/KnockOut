@@ -106,7 +106,7 @@ public class DrawerActivity extends AppCompatActivity
                 addedFriendsDone();
             }
         }
-        sendMail();
+//        sendMail();
     }
 
     @Override
@@ -298,33 +298,20 @@ public class DrawerActivity extends AppCompatActivity
         startActivity(i);
         this.finish();
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     public void sendMail() {
         Map<String, String> params = new HashMap<>();
-        params.put("text", "Sample mail body");
-        params.put("subject", "Test Parse Push");
-        params.put("fromEmail", "someone@example.com");
-        params.put("fromName", "Source User");
-        params.put("toEmail", "shantanukamath@live.in");
-        params.put("toName", "Target user");
+        params.put("text", "Dear Jagganath Pratyum,\n" +
+                " \n" +
+                "Congratulations! You suck.\n" +
+                " \n" +
+                "We are pleased to welcome you as one of the specially selected candidates as an esteemed member of BlitzKrieg Pvt. Ltd.\n" +
+                " \n" +
+                "Your admission to this Company is conditional upon your reply to this email latest by 25 March 2016 (Friday) to indicate your acceptance to the programme.");
+        params.put("subject", "Blitzkrieg application status");
+        params.put("fromEmail", "admin_applications@blitzkrieg.sg");
+        params.put("fromName", "Blitzkrieg Sg");
+        params.put("toEmail", "shaan.kamath@gmail.com");
+        params.put("toName", "Pratyum the loser");
         ParseCloud.callFunctionInBackground("sendMail", params, new FunctionCallback<Object>() {
             @Override
             public void done(Object response, ParseException exc) {
