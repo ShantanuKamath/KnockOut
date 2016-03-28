@@ -13,15 +13,15 @@ import android.widget.TextView;
 
 public class FirstFragment extends Fragment {
     // Store instance variables
-    private String title;
+    private String[] schedule;
     private int page;
 
     // newInstance constructor for creating fragment with arguments
-    public static FirstFragment newInstance(int page, String title) {
+    public static FirstFragment newInstance(int page, String[] s) {
         FirstFragment fragmentFirst = new FirstFragment();
         Bundle args = new Bundle();
         args.putInt("someInt", page);
-        args.putString("someTitle", title);
+        args.putStringArray("someTitle", s);
         fragmentFirst.setArguments(args);
         return fragmentFirst;
     }
@@ -31,7 +31,7 @@ public class FirstFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         page = getArguments().getInt("someInt", 0);
-        title = getArguments().getString("someTitle");
+        schedule = getArguments().getStringArray("someTitle");
     }
 
     // Inflate the view for the fragment based on layout XML
@@ -45,7 +45,7 @@ public class FirstFragment extends Fragment {
         parentL.setBackgroundColor(Color.parseColor("#E0E0E0"));
         LinearLayout[] blockSegment = new LinearLayout[15];
         int timeNumber = 9;
-        String timeStr = " AM";
+        String timeStr = "\nAM";
         for (int i = 0; i < blockSegment.length; i++) {
             blockSegment[i] = new LinearLayout(getActivity());
             blockSegment[i].setId(i);
@@ -64,27 +64,27 @@ public class FirstFragment extends Fragment {
             if(timeNumber >12)
             {
                 timeNumber-=12;
-                timeStr = " PM";
+                timeStr = "\nPM";
             }
             time.setTextSize(TypedValue.COMPLEX_UNIT_SP, 20);
             time.setGravity(Gravity.CENTER);
-            int timePadding = (int) (4 * scale + 0.5f);
+            int timePadding = (int) ( 8* scale + 0.5f);
             time.setPadding(0, 0, timePadding, 0);
             int zero = (int) (0 * scale + 0.5f);
-            time.setLayoutParams(new LinearLayout.LayoutParams(zero, LinearLayout.LayoutParams.WRAP_CONTENT, 0.2f));
+            time.setLayoutParams(new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT));
             blockSegment[i].addView(time);
 
             ////
             LinearLayout vert = new LinearLayout(getActivity());
             vert.setOrientation(LinearLayout.VERTICAL);
-            LinearLayout.LayoutParams vertParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT,0.8f);
+            LinearLayout.LayoutParams vertParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT,0.9f);
             ////
 
             TextView content = new TextView(getActivity());
-            content.setText("Go cycling");
+            content.setText(schedule[i]);
             content.setTextSize(TypedValue.COMPLEX_UNIT_SP, 20);
             content.setTextColor(Color.parseColor("#000000"));
-            LinearLayout.LayoutParams contentParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT, 0.5f);
+            LinearLayout.LayoutParams contentParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
             contentParams.gravity= Gravity.LEFT;
             content.setLayoutParams(contentParams);
 
@@ -94,7 +94,7 @@ public class FirstFragment extends Fragment {
             desc.setTextSize(TypedValue.COMPLEX_UNIT_SP, 12);
             int descPadding = (int) (4*scale + 0.5f);
             desc.setPadding(0, 0, 0, descPadding);
-            LinearLayout.LayoutParams descParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT, 0.5f);
+            LinearLayout.LayoutParams descParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT);
             descParams.gravity= Gravity.LEFT;
             desc.setLayoutParams(descParams);
             vert.addView(content);
