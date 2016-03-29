@@ -135,7 +135,7 @@ public class DrawerActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Intent i = new Intent(this,PlannerActivity.class);
+            Intent i = new Intent(this,ShowAttractionsActivity.class);
             startActivity(i);
             return true;
         }else if (id == R.id.logout) {
@@ -153,8 +153,9 @@ public class DrawerActivity extends AppCompatActivity
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
         int id = item.getItemId();
+        int count = 0;
         Fragment fragment = null;
-        Class fragmentClass = null;
+        Class fragmentClass = WeatherFragment.class;
 
         if (id == R.id.nav_home) {
             fragmentClass = WeatherFragment.class;
@@ -167,7 +168,7 @@ public class DrawerActivity extends AppCompatActivity
         } else if (id == R.id.nav_manage) {
             fragmentClass = SettingsFragment.class;
         } else if (id == R.id.nav_share) {
-
+            count=99;
         } else if (id == R.id.nav_send) {
 
         }
@@ -184,6 +185,11 @@ public class DrawerActivity extends AppCompatActivity
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
+        if(count==99)
+        { Intent i = new Intent(this,ShowAttractionsActivity.class);
+            i.putExtra("fromWhere", "Drawer");
+            startActivity(i);
+        }
         return true;
     }
 

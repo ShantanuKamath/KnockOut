@@ -90,7 +90,8 @@
 
         <activity android:name=".ProfileActivity" />
         <activity android:name=".AddFriendsActivity" />
-        <activity android:name=".PlannerActivity"></activity>
+        <activity android:name=".PlannerActivity" />
+        <activity android:name=".ShowAttractionsActivity" />
     </application>
 
 </manifest>

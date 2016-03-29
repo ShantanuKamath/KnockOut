@@ -15,7 +15,6 @@ import android.widget.CheckBox;
 import android.widget.DatePicker;
 import android.widget.TextView;
 
-import com.parse.ParseObject;
 import com.parse.ParseUser;
 
 import java.util.ArrayList;
@@ -120,14 +119,13 @@ public class ItineraryFragment extends Fragment {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        ParseObject Itineraries = new ParseObject("Itineraries");
-
-                        Itineraries.put("HotelName", hotelName.getText().toString());
-                        Itineraries.put("ToDate", toText.getText().toString());
-                        Itineraries.put("FromDate", fromText.getText().toString());
-                        Itineraries.put("NoOfAdults", quantity1);
-                        Itineraries.put("NoOfKids", quantity2);
-                        Itineraries.put("ItinName", TripName.getText().toString());
+                        Intent i=new Intent(getActivity(), PlannerActivity.class);
+                        i.putExtra("HotelName", hotelName.getText().toString());
+                        i.putExtra("ToDate", toText.getText().toString());
+                        i.putExtra("FromDate", fromText.getText().toString());
+                        i.putExtra("NoOfAdults", quantity1);
+                        i.putExtra("NoOfKids", quantity2);
+                        i.putExtra("ItinName", TripName.getText().toString());
                         ArrayList<String> checked = new ArrayList<String>();
                         if(leisure.isChecked())
                             checked.add("Leisure");
@@ -135,12 +133,10 @@ public class ItineraryFragment extends Fragment {
                             checked.add("Education");
                         if(business.isChecked())
                             checked.add("Business");
-                        Itineraries.put("Purpose", checked);
-                        Itineraries.put("UserName", ParseUser.getCurrentUser().getString("name"));
-                        Itineraries.saveInBackground();
-
+                        i.putExtra("Purpose", checked);
+                        i.putExtra("UserName", ParseUser.getCurrentUser().getString("name"));
                         int days = Integer.parseInt(toText.getText().toString().substring(0,2))-Integer.parseInt(fromText.getText().toString().substring(0,2));
-                        Intent i=new Intent(getActivity(), PlannerActivity.class);
+
                         i.putExtra("noOfDays", ""+days);
                         Log.v("BLAH", "" + days);
                         startActivity(i);
