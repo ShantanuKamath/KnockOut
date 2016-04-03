@@ -5,7 +5,6 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -96,16 +95,5 @@ public class SendItineraryActivity extends AppCompatActivity {
                 Log.d("TEST", names.get((int) id));
             }
         });
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        Intent i = getIntent();
-        if (i.getSerializableExtra("fromWhere").toString().equals("Drawer"))
-            getMenuInflater().inflate(R.menu.attractions_menu, menu);
-        else
-            getMenuInflater().inflate(R.menu.menu_hotel_list, menu);
-        return true;
     }
 }

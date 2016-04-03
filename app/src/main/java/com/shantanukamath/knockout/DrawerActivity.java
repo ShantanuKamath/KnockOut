@@ -135,8 +135,21 @@ public class DrawerActivity extends AppCompatActivity
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Intent i = new Intent(this,ShowAttractionsActivity.class);
-            startActivity(i);
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setTitle("Looks like it might rain today");
+
+            builder.setMessage("We think its time to replace outdoor activities with indoor ones!");
+            builder.setPositiveButton("Okay, Take me to it!", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                   Intent i = new Intent(getBaseContext(), SendItineraryActivity.class);
+                    startActivity(i);
+
+                    // User clicked OK button
+                }
+            });
+
+            AlertDialog dialog = builder.create();
+            dialog.show();
             return true;
         }else if (id == R.id.logout) {
             ParseUser.logOut();

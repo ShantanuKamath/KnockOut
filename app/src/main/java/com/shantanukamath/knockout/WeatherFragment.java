@@ -1,10 +1,12 @@
 package com.shantanukamath.knockout;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -210,6 +212,23 @@ public class WeatherFragment extends Fragment {
                         wIcon.setImageResource(wIcons[i]);
                     }
                 }
+
+                if(weather.getText().toString().equals("Rain") || weather.getText().toString().equals("Thunderstorm") || weather.getText().toString().equals("Drizzle"))
+                {
+                    AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+                    builder.setTitle("Looks like it might rain today");
+
+                        builder.setMessage("I think its time to replace outdoor activities with indoor ones!");
+                        builder.setPositiveButton("Okay!", new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int id) {
+                                // User clicked OK button
+                            }
+                        });
+
+                    AlertDialog dialog = builder.create();
+                    dialog.show();
+                }
+
             }
         }
 
