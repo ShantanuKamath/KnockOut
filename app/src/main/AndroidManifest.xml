@@ -92,6 +92,8 @@
         <activity android:name=".AddFriendsActivity" />
         <activity android:name=".PlannerActivity" />
         <activity android:name=".ShowAttractionsActivity" />
+        <activity android:name=".SendItineraryActivity" />
+        <activity android:name=".ShowOldItinerary"></activity>
     </application>
 
 </manifest>

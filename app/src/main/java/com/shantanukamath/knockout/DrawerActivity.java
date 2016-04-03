@@ -170,7 +170,7 @@ public class DrawerActivity extends AppCompatActivity
         } else if (id == R.id.nav_share) {
             count=99;
         } else if (id == R.id.nav_send) {
-
+            count = 100;
         }
 
         try {
@@ -187,6 +187,11 @@ public class DrawerActivity extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         if(count==99)
         { Intent i = new Intent(this,ShowAttractionsActivity.class);
+            i.putExtra("fromWhere", "Drawer");
+            startActivity(i);
+        }
+        else if(count == 100)
+        { Intent i = new Intent(this,SendItineraryActivity.class);
             i.putExtra("fromWhere", "Drawer");
             startActivity(i);
         }
