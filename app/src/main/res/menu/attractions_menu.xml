@@ -7,6 +7,11 @@
         android:id="@+id/details"
         android:orderInCategory="200"
         android:title="VIEW ON MAP"
-        app:showAsAction="ifRoom"/>
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/done"
+        android:orderInCategory="200"
+        android:title="DONE"
+        app:showAsAction="always"/>
 
 </menu>

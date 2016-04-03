@@ -1,5 +1,6 @@
 package com.shantanukamath.knockout;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -58,14 +59,7 @@ public class FirstFragment extends Fragment {
             int lLayoutPadding = (int) (8*scale + 0.5f);
             blockSegment[i].setPadding(lLayoutPadding, lLayoutPadding, 0, lLayoutPadding);
             blockSegment[i].setClickable(true);
-            blockSegment[i].setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-//                    Intent i = new Intent(getActivity(), DrawerActivity.class);
-//                    startActivity(i);
 
-                }
-            });
             TextView time = new TextView(getActivity());
             time.setText(timeNumber+""+timeStr);
             timeNumber++;
@@ -88,7 +82,7 @@ public class FirstFragment extends Fragment {
             LinearLayout.LayoutParams vertParams = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.WRAP_CONTENT, LinearLayout.LayoutParams.WRAP_CONTENT,0.9f);
             ////
 
-            TextView content = new TextView(getActivity());
+            final TextView content = new TextView(getActivity());
             content.setText(schedule[i]);
             content.setTextSize(TypedValue.COMPLEX_UNIT_SP, 20);
             content.setTextColor(Color.parseColor("#000000"));
@@ -109,6 +103,15 @@ public class FirstFragment extends Fragment {
             vert.addView(desc);
             blockSegment[i].addView(vert, vertParams);
             parentL.addView(blockSegment[i]);
+            blockSegment[i].setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent i = new Intent(getActivity(), ShowAttractionsActivity.class);
+                    startActivity(i);
+
+                    content.setText("National Museum of Singapore");
+                }
+            });
         }
         return view;
     }

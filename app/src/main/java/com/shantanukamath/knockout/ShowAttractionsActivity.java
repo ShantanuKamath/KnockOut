@@ -86,10 +86,15 @@ public class ShowAttractionsActivity extends AppCompatActivity {
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         Intent i = getIntent();
-        if(i.getSerializableExtra("fromWhere").toString().equals("Drawer"))
-            getMenuInflater().inflate(R.menu.attractions_menu, menu);
+        if(i.getSerializableExtra("fromWhere")!=null) {
+            if (i.getSerializableExtra("fromWhere").toString().equals("Drawer"))
+                getMenuInflater().inflate(R.menu.attractions_menu, menu);
+            else
+                getMenuInflater().inflate(R.menu.menu_hotel_list, menu);
+        }
         else
-            getMenuInflater().inflate(R.menu.menu_hotel_list, menu);
+            getMenuInflater().inflate(R.menu.attractions_menu, menu);
+
         return true;
     }
 
@@ -114,6 +119,9 @@ public class ShowAttractionsActivity extends AppCompatActivity {
             i.putExtra("postal", getPostal(name));
             startActivity(i);
 
+        }
+        else if (id == R.id.done) {
+           onBackPressed();
         }
         return super.onOptionsItemSelected(item);
     }
