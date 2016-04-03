@@ -57,7 +57,15 @@ public class FirstFragment extends Fragment {
             blockSegment[i].setLayoutParams(blockSegParams);
             int lLayoutPadding = (int) (8*scale + 0.5f);
             blockSegment[i].setPadding(lLayoutPadding, lLayoutPadding, 0, lLayoutPadding);
+            blockSegment[i].setClickable(true);
+            blockSegment[i].setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+//                    Intent i = new Intent(getActivity(), DrawerActivity.class);
+//                    startActivity(i);
 
+                }
+            });
             TextView time = new TextView(getActivity());
             time.setText(timeNumber+""+timeStr);
             timeNumber++;

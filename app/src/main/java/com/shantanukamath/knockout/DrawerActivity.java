@@ -164,7 +164,7 @@ public class DrawerActivity extends AppCompatActivity
         } else if (id == R.id.nav_friends) {
             fragmentClass = ShowFriendsFragment.class;
         } else if (id == R.id.nav_slideshow) {
-
+            fragmentClass = SuggestFragment.class;
         } else if (id == R.id.nav_manage) {
             fragmentClass = SettingsFragment.class;
         } else if (id == R.id.nav_share) {
@@ -325,5 +325,6 @@ public class DrawerActivity extends AppCompatActivity
             }
         });
     }
+
 
 }
