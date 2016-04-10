@@ -93,7 +93,8 @@
         <activity android:name=".PlannerActivity" />
         <activity android:name=".ShowAttractionsActivity" />
         <activity android:name=".SendItineraryActivity" />
-        <activity android:name=".ShowOldItinerary"></activity>
+        <activity android:name=".ShowOldItinerary" />
+        <activity android:name=".SelectToShareActivity"></activity>
     </application>
 
 </manifest>

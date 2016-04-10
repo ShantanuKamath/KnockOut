@@ -1,5 +1,6 @@
 package com.shantanukamath.knockout;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -8,7 +9,6 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 public class ShowOldItinerary extends AppCompatActivity {
     int NUM_ITEMS;
@@ -29,8 +29,8 @@ public class ShowOldItinerary extends AppCompatActivity {
             // This method will be invoked when a new page becomes selected.
             @Override
             public void onPageSelected(int position) {
-                Toast.makeText(ShowOldItinerary.this,
-                        "Selected page position: " + position, Toast.LENGTH_SHORT).show();
+//                Toast.makeText(ShowOldItinerary.this,
+//                        "Selected page position: " + position, Toast.LENGTH_SHORT).show();
             }
 
             // This method will be invoked when the current page is scrolled
@@ -64,7 +64,8 @@ public class ShowOldItinerary extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.share) {
-
+            Intent i = new Intent(this, SendItineraryActivity.class);
+            startActivity(i);
         }
         return super.onOptionsItemSelected(item);
     }

@@ -16,6 +16,7 @@ import com.parse.FindCallback;
 import com.parse.ParseException;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
+import com.parse.ParseUser;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -34,6 +35,7 @@ public class SendItineraryActivity extends AppCompatActivity {
             public void done(List<ParseObject> scoreList, ParseException e) {
                 if (e == null) {
                     for (ParseObject parseObj : scoreList) {
+                        if(parseObj.get("UserName").toString().equals(ParseUser.getCurrentUser().getString("name")))
                         names.add(parseObj.get("ItinName").toString());
                     }
                     Log.d("score", "Retrieved " + scoreList.size() + " scores");
@@ -75,16 +77,14 @@ public class SendItineraryActivity extends AppCompatActivity {
                     public void done(List<ParseObject> scoreList, ParseException e) {
                         if (e == null) {
                             for (ParseObject parseObj : scoreList) {
-                                ArrayList<String> schedules = (ArrayList<String>)parseObj.get("Schedules");
+                                ArrayList<String> schedules = (ArrayList<String>) parseObj.get("Schedules");
                                 String[] array = schedules.toArray(new String[schedules.size()]);
-                                int days = (schedules.size()/15);
-
-                                Bundle b=new Bundle();
+                                Bundle b = new Bundle();
                                 b.putStringArray("Schedules", array);
-                                Intent i=new Intent(getBaseContext(), ShowOldItinerary.class);
+                                Intent i = new Intent(getBaseContext(), ShowOldItinerary.class);
                                 i.putExtras(b);
                                 startActivity(i);
-                                Log.v("BAK2", schedules.size()+"");
+                                Log.v("BAK2", schedules.size() + "");
                             }
                         } else {
                             Log.d("score", "Error: " + e.getMessage());
