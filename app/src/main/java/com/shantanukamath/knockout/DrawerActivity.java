@@ -21,15 +21,11 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.parse.FunctionCallback;
-import com.parse.ParseCloud;
-import com.parse.ParseException;
 import com.parse.ParseUser;
 
 import java.text.SimpleDateFormat;
-import java.util.HashMap;
+import java.util.ArrayList;
 import java.util.Locale;
-import java.util.Map;
 
 public class DrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, WeatherFragment.OnFragmentInteractionListener, ItineraryFragment.OnFragmentInteractionListener, SettingsFragment.OnFragmentInteractionListener,ShowFriendsFragment.OnFragmentInteractionListener {
@@ -68,7 +64,21 @@ public class DrawerActivity extends AppCompatActivity
             AlertDialog dialog = builder.create();
             dialog.show();
         }
-
+        if(intent.getStringArrayListExtra("Email")!=null)
+        {
+            ArrayList<String> selectedFriends= new ArrayList<String>();
+            selectedFriends = intent.getStringArrayListExtra("Email");
+            AlertDialog.Builder builder = new AlertDialog.Builder(this);
+            builder.setTitle("Share Itinerary!");
+                builder.setMessage("Email sent successfully!");
+                builder.setPositiveButton("Thanks!", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        // User clicked OK button
+                    }
+                });
+            AlertDialog dialog = builder.create();
+            dialog.show();
+        }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -141,7 +151,7 @@ public class DrawerActivity extends AppCompatActivity
             builder.setMessage("We think its time to replace outdoor activities with indoor ones!");
             builder.setPositiveButton("Okay, Take me to it!", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
-                   Intent i = new Intent(getBaseContext(), SendItineraryActivity.class);
+                    Intent i = new Intent(getBaseContext(), SendItineraryActivity.class);
                     startActivity(i);
 
                     // User clicked OK button
@@ -322,27 +332,5 @@ public class DrawerActivity extends AppCompatActivity
         startActivity(i);
         this.finish();
     }
-    public void sendMail() {
-        Map<String, String> params = new HashMap<>();
-        params.put("text", "Dear Jagganath Pratyum,\n" +
-                " \n" +
-                "Congratulations! You suck.\n" +
-                " \n" +
-                "We are pleased to welcome you as one of the specially selected candidates as an esteemed member of BlitzKrieg Pvt. Ltd.\n" +
-                " \n" +
-                "Your admission to this Company is conditional upon your reply to this email latest by 25 March 2016 (Friday) to indicate your acceptance to the programme.");
-        params.put("subject", "Blitzkrieg application status");
-        params.put("fromEmail", "admin_applications@blitzkrieg.sg");
-        params.put("fromName", "Blitzkrieg Sg");
-        params.put("toEmail", "shaan.kamath@gmail.com");
-        params.put("toName", "Pratyum the loser");
-        ParseCloud.callFunctionInBackground("sendMail", params, new FunctionCallback<Object>() {
-            @Override
-            public void done(Object response, ParseException exc) {
-                Log.e("cloud code example", "response: " + response);
-            }
-        });
-    }
-
 
 }

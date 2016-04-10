@@ -64,7 +64,7 @@ public class ShowOldItinerary extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.share) {
-            Intent i = new Intent(this, SendItineraryActivity.class);
+            Intent i = new Intent(this, SelectToShareActivity.class);
             startActivity(i);
         }
         return super.onOptionsItemSelected(item);

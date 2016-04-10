@@ -10,7 +10,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
 
 import com.parse.ParseObject;
 import com.parse.ParseUser;
@@ -42,8 +41,8 @@ public class PlannerActivity extends AppCompatActivity {
             // This method will be invoked when a new page becomes selected.
             @Override
             public void onPageSelected(int position) {
-                Toast.makeText(PlannerActivity.this,
-                        "Selected page position: " + position, Toast.LENGTH_SHORT).show();
+//                Toast.makeText(PlannerActivity.this,
+//                        "Selected page position: " + position, Toast.LENGTH_SHORT).show();
             }
 
             // This method will be invoked when the current page is scrolled
@@ -123,7 +122,7 @@ public class PlannerActivity extends AppCompatActivity {
         // Returns the page title for the top indicator
         @Override
         public CharSequence getPageTitle(int position) {
-            return "Page " + position;
+            return "Day " + position;
         }
 
         String[] randomSchedule() {
