@@ -29,7 +29,7 @@ import java.util.Locale;
 
 public class DrawerActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, WeatherFragment.OnFragmentInteractionListener, ItineraryFragment.OnFragmentInteractionListener, SettingsFragment.OnFragmentInteractionListener,ShowFriendsFragment.OnFragmentInteractionListener {
-
+    static final int[] count = {0};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,6 +60,7 @@ public class DrawerActivity extends AppCompatActivity
                         // User clicked OK button
                     }
                 });
+
             }
             AlertDialog dialog = builder.create();
             dialog.show();
@@ -70,12 +71,13 @@ public class DrawerActivity extends AppCompatActivity
             selectedFriends = intent.getStringArrayListExtra("Email");
             AlertDialog.Builder builder = new AlertDialog.Builder(this);
             builder.setTitle("Share Itinerary!");
-                builder.setMessage("Email sent successfully!");
-                builder.setPositiveButton("Thanks!", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int id) {
-                        // User clicked OK button
-                    }
+            builder.setMessage("Email sent successfully!");
+            builder.setPositiveButton("Thanks!", new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
+                    // User clicked OK button
+                }
                 });
+
             AlertDialog dialog = builder.create();
             dialog.show();
         }
@@ -116,7 +118,6 @@ public class DrawerActivity extends AppCompatActivity
                 addedFriendsDone();
             }
         }
-//        sendMail();
     }
 
     @Override
@@ -154,6 +155,11 @@ public class DrawerActivity extends AppCompatActivity
                     Intent i = new Intent(getBaseContext(), SendItineraryActivity.class);
                     startActivity(i);
 
+                    // User clicked OK button
+                }
+            });
+            builder.setNegativeButton("Later!",new DialogInterface.OnClickListener() {
+                public void onClick(DialogInterface dialog, int id) {
                     // User clicked OK button
                 }
             });

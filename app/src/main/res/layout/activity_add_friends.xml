@@ -10,13 +10,13 @@
     tools:context="com.example.priyanshu.crumbs.AddFriends"
     android:orientation="vertical">
 
-    <AutoCompleteTextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/friends_list_search"
-        android:singleLine="true"
-        android:hint="Enter friend's name :"
-        android:textColor="#000"/>
+    <!--<AutoCompleteTextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:id="@+id/friends_list_search"-->
+        <!--android:singleLine="true"-->
+        <!--android:hint="Enter friend's name :"-->
+        <!--android:textColor="#000"/>-->
     <ListView
         android:layout_width="match_parent"
         android:layout_height="match_parent"

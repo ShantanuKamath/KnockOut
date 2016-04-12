@@ -11,7 +11,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.AutoCompleteTextView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -79,17 +78,18 @@ public class AddFriendsActivity extends AppCompatActivity {
                         }
                     };
                     ListView lv = (ListView) findViewById(R.id.friends_list);
-                    final AutoCompleteTextView actv = (AutoCompleteTextView) findViewById(R.id.friends_list_search);
-                    actv.setAdapter(friends_list_adapter);
-                    actv.setThreshold(1);
+//                    final AutoCompleteTextView actv = (AutoCompleteTextView) findViewById(R.id.friends_list_search);
+//                    actv.setAdapter(friends_list_adapter);
+//                    actv.setThreshold(1);
                     lv.setAdapter(friends_list_adapter);
                     final String[] finalUser_list = user_list;
-                    lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                    lv.setOnItemClickListener(
+                            new AdapterView.OnItemClickListener() {
                         @Override
                         public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                             TextView blah = (TextView) view;
 //                            Log.v("FRIENDS", blah.getText().toString());
-                            actv.setText(blah.getText().toString());
+//                            actv.setText(blah.getText().toString());
                             ParseUser user = ParseUser.getCurrentUser();
                             ArrayList<String> friends_ar = (ArrayList<String>) user.get("friends");
                             if (friends_ar == null) {

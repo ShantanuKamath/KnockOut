@@ -92,6 +92,7 @@ public class PlannerActivity extends AppCompatActivity {
             Itineraries.saveInBackground();
             i = new Intent(this, DrawerActivity.class);
             startActivity(i);
+            this.finish();
         }
         return super.onOptionsItemSelected(item);
     }

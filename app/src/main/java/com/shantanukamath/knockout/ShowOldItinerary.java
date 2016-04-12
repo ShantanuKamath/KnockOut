@@ -88,9 +88,12 @@ public class ShowOldItinerary extends AppCompatActivity {
         public Fragment getItem(int position) {
             Bundle b= getIntent().getExtras();
             String[] schedule=b.getStringArray("Schedules");
-            for(int i =0; i<15; i++)
-                arrays[position*15+i]= schedule[i];
-            return FirstFragment.newInstance(position, schedule);
+            String[] day=new String[15];
+            for(int i =0; i<15; i++) {
+                arrays[position * 15 + i] = schedule[position * 15 + i];
+                day[i]=schedule[position * 15 + i];
+            }
+            return FirstFragment.newInstance(position, day);
         }
 
         // Returns the page title for the top indicator

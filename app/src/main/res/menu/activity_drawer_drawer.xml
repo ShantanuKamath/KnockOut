@@ -33,7 +33,7 @@
             <item
                 android:id="@+id/nav_send"
                 android:icon="@drawable/ic_menu_send"
-                android:title="Email Itinerary" />
+                android:title="Share Itinerary" />
         </menu>
     </item>
 

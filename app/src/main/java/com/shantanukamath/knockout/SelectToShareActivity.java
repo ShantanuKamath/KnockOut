@@ -91,18 +91,18 @@ public class SelectToShareActivity extends AppCompatActivity {
     }
     public void sendMail() {
         final Map<String, String> params = new HashMap<>();
-        params.put("text", "Dear Jagganath Pratyum,\n" +
-                " \n" +
-                "Congratulations! You suck.\n" +
-                " \n" +
-                "We are pleased to welcome you as one of the specially selected candidates as an esteemed member of BlitzKrieg Pvt. Ltd.\n" +
-                " \n" +
-                "Your admission to this Company is conditional upon your reply to this email latest by 25 March 2016 (Friday) to indicate your acceptance to the programme.");
-        params.put("subject", "Blitzkrieg application status");
-        params.put("fromEmail", "admin_applications@blitzkrieg.sg");
-        params.put("fromName", "Blitzkrieg Sg");
+        params.put("text", "Dear SgTrip User,\n"+
+                        " \n" +
+                        "Congratulations! Your Itinerary has been created!.\n" +
+                        " \n" + "Please check the attachment included.\n"+
+                        " \n" + "Best Regards, \n Team SgTrip"
+        );
+
+        params.put("subject", "SgTrip Itinerary");
+        params.put("fromEmail", "admin@sgtrip.com");
+        params.put("fromName", "Administrator @ SgTrip");
         params.put("toEmail", ParseUser.getCurrentUser().get("email").toString());
-        params.put("toName", "Pratyum the loser");
+        params.put("toName", ParseUser.getCurrentUser().get("name").toString());
         ParseCloud.callFunctionInBackground("sendMail", params, new FunctionCallback<Object>() {
             @Override
             public void done(Object response, ParseException exc) {
@@ -124,18 +124,16 @@ public class SelectToShareActivity extends AppCompatActivity {
                     if (e == null) {
                         Map<String, String> params = new HashMap<>();
                         for (ParseObject parseObj : scoreList) {
-                            params.put("text", "Dear Jagganath Pratyum,\n" +
+                            params.put("text", "Dear SgTrip User,\n" +
                                     " \n" +
-                                    "Congratulations! You suck.\n" +
-                                    " \n" +
-                                    "We are pleased to welcome you as one of the specially selected candidates as an esteemed member of BlitzKrieg Pvt. Ltd.\n" +
-                                    " \n" +
-                                    "Your admission to this Company is conditional upon your reply to this email latest by 25 March 2016 (Friday) to indicate your acceptance to the programme.");
-                            params.put("subject", "Blitzkrieg application status");
-                            params.put("fromEmail", "admin_applications@blitzkrieg.sg");
-                            params.put("fromName", "Blitzkrieg Sg");
-                            params.put("toEmail", ParseUser.getCurrentUser().get("email").toString());
-                            params.put("toName", "Pratyum the loser");
+                                    "Congratulations! Your Itinerary has been created!.\n" +
+                                    " \n" + "Please check the attachment included.\n"+
+                                    " \n" + "Best Regards, \n Team SgTrip"
+                                    );
+                            params.put("subject", "SgTrip Itinerary");
+                            params.put("fromEmail", "admin@sgtrip.com");
+                            params.put("fromName", "Administrator@SgTrip");
+                            params.put("toName", parseObj.get("name").toString());
                             email[0] = parseObj.get("email").toString();
                             Log.v("BAK", email[0]);
                             params.put("toEmail", email[0]);

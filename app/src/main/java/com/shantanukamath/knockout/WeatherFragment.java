@@ -2,6 +2,7 @@ package com.shantanukamath.knockout;
 
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.net.Uri;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -185,8 +186,9 @@ public class WeatherFragment extends Fragment {
 
         @Override
         protected void onPostExecute(String s) {
-            String weatherIcons[] = {"sky is clear", "few clouds", "scattered clouds", "broken clouds", "shower rain", "Rain", "Thunderstorm", "snow", "mist"};
-            int wIcons[] = {R.drawable.weather_1, R.drawable.weather_2, R.drawable.weather_4, R.drawable.weather_3, R.drawable.weather_5, R.drawable.weather_6, R.drawable.weather_7, R.drawable.weather_8, R.drawable.weather_9};
+            String weatherIcons[] = {"sky is clear", "few clouds", "scattered clouds", "broken clouds", "shower rain", "Rain", "Thunderstorm", "snow", "mist", "light intensity shower rain"};
+            int wIcons[] = {R.drawable.weather_1, R.drawable.weather_2, R.drawable.weather_4, R.drawable.weather_3, R.drawable.weather_5, R.drawable.weather_6, R.drawable.weather_7, R.drawable.weather_8, R.drawable.weather_9, R.drawable.weather_6};
+            wIcon.setImageResource(R.drawable.weather_6);
             if (s.length() > 0) {
                 int start = 0;
                 int end = s.indexOf("\n");
@@ -201,6 +203,7 @@ public class WeatherFragment extends Fragment {
                 start = end + 1;
                 end = s.indexOf("\n", start);
                 weather.setText(s.substring(start, end));
+//                weather.setText("Rain");
                 start = end + 1;
                 end = s.indexOf("\n", start);
                 description.setText(s.substring(start, end));
@@ -213,18 +216,27 @@ public class WeatherFragment extends Fragment {
                     }
                 }
 
-                if(weather.getText().toString().equals("Rain") || weather.getText().toString().equals("Thunderstorm") || weather.getText().toString().equals("Drizzle"))
+                if((weather.getText().toString().equals("Rain") || weather.getText().toString().equals("Thunderstorm") || weather.getText().toString().equals("Drizzle")) && DrawerActivity.count[0] !=99 )
                 {
                     AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
                     builder.setTitle("Looks like it might rain today");
+                    builder.setMessage("I think its time to replace outdoor activities with indoor ones!");
+                    builder.setPositiveButton("Okay, Take me to it!", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            DrawerActivity.count[0] = 99;
+                            Intent i = new Intent(getActivity(), SendItineraryActivity.class);
+                            startActivity(i);
 
-                        builder.setMessage("I think its time to replace outdoor activities with indoor ones!");
-                        builder.setPositiveButton("Okay!", new DialogInterface.OnClickListener() {
-                            public void onClick(DialogInterface dialog, int id) {
-                                // User clicked OK button
-                            }
-                        });
+                            // User clicked OK button
+                        }
+                    });
+                    builder.setNegativeButton("Later!", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            DrawerActivity.count[0] = 99;
 
+                            // User clicked OK button
+                        }
+                    });
                     AlertDialog dialog = builder.create();
                     dialog.show();
                 }
